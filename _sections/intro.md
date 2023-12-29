@@ -4,11 +4,12 @@ styles:
   - style1
   - fullscreen
 order: 0
+background: welcome.jpg
 ---
 
-<h1>Hyperspace</h1>
-<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+# Julius von Forstner
+Pianist · Bass-Baritone
+
 <ul class="actions">
     <li><a href="#one" class="button scrolly">Learn more</a></li>
 </ul>

@@ -6,7 +6,8 @@ layout: default
 
 {% assign sections = site.sections | sort: 'order' %}
 {% for section in sections %}
-<section id="{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} fade-up">
+<section id="{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} fade-up"
+    {% if section.background %} style="background-image: url('assets/img/{{ section.background }}')" {% endif %}>
     <div class="inner">
         {{ section.content }}
     </div>

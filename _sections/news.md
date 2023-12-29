@@ -1,10 +1,12 @@
 ---
-title: One
+title: News
 styles:
-  - style2
+  - style1
   - spotlights
 order: 1
 ---
+
+# News
 
 <section>
     <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
