@@ -1,0 +1,13 @@
+<!-- Sidebar -->
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                {% assign sections = site.sections | sort: 'order' %}
+                {% for section in sections %}
+                <li><a href="#{{ section.name | split: '.' | first }}">{{ section.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</section>
