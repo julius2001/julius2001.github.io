@@ -1,7 +1,7 @@
 ---
 title: Contact
 styles:
-  - style4
+  - style2
 order: 4
 ---
 

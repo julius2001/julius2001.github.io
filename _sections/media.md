@@ -1,7 +1,7 @@
 ---
 title: Media
 styles:
-  - style3
+  - style1
 order: 3
 ---
 
