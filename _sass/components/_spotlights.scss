@@ -100,7 +100,7 @@
 
 				> .image {
 					width: 100%;
-					height: 50vh;
+					height: 35vh;
 				}
 
 				> .content {
@@ -119,7 +119,7 @@
 
 			@include breakpoint('<=small') {
 				> .image {
-					height: 50vh;
+					height: 35vh;
 					min-height: 15em;
 				}
 
