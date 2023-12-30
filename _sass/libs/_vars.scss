@@ -24,16 +24,16 @@
 
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family:				(Raleway, Arial, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
-		weight-bold:		bold,
+		weight-bold:		600,
 		kerning-alt:		0.25em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#312450,
+		bg:					#000000,
 		bg-alt:				darken(#312450, 5),
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,

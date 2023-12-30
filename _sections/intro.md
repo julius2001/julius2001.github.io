@@ -11,5 +11,5 @@ background: welcome.jpg
 Pianist · Bass-Baritone
 
 <ul class="actions">
-    <li><a href="#one" class="button scrolly">Learn more</a></li>
+    <li><a href="#news" class="scrolly"><i class="icon solid major fa-arrow-down"></i></a></li>
 </ul>
