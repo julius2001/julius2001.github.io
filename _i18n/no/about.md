@@ -1,0 +1,30 @@
+## Om meg
+
+Pianisten og bassbarytonen, født i Schleswig i Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
+barndommen.
+Først lærte han seg grunnleggende pianospill på egen hånd i tilleg til kirkekor, fiolin- og bratsjspill,
+før han i alderen av 10 år begynte sin klaverutdannelse hos den irsk-tyske pianisten Kevin McKenna.
+Det var nettopp denne selvlærte tilnærmingen som ga ham en ekstremt naturlig og personlig relasjon til musikken
+fra første stund.
+Deretter fulgte en rekke konsertopptredener (blant annet i samarbeid med statsteateret i Schleswig-Holstein)
+og priser i konkurranser (blant annet i den nasjonale konkurransen Jugend musiziert).
+
+Etter videregående begynte han med sitt bachelorstudiet i klaver ved Musikkhøgskolen i Karlsruhe, Tyskland
+med professor Kalle Randalu i 2019, som han fullførte med utmerkelse i 2023.
+Han fikk også viktige impulser fra professor Sergej Osadchuk, Heike Allardt, Andrej Jussow, Vadim Palmov,
+ved Mattheiser sommerakademi, Nordland kammermusikkurs og fra professor Christopher Park under
+Voksenåsen sommerakademi.
+I 2022 fullførte Julius von Forstner med stor entusiasme et ERASMUS-utvekslingssemester ved UiT Norges arktiske
+universitet i Tromsø.
+
+I tillegg til kammermusikk, romanseinterpretasjon og samtidsmusikk førte studiene ved Musikkhøgskolen i Karlsruhe
+også til en stor interesse i klassisk sang.
+I 2023 begynte Julius von Forstner derfor å studere sang med professor Holger Speck som bassbaryton ved siden av
+klaverstudiet, og han har allerede utviklet et bredt repertoar av sanger, oratorie- og operaarier.
+Kombinasjonen av piano og sang gir ham ideelle komplementære ferdigheter som beriker ham som musiker.
+
+Høsten 2023 flyttet Julius von Forstner til Oslo, blant annet på grunn av sin store begeistring for landet og dets
+kultur.
+Dermed begynte han masterstudiet sitt i utøvende klaver med professor Håvard Gimse ved Norges musikkhøgskole.
+Samtidig fortsette han vokalstudiene ved UiT Norges arktiske universitet med professorene Anne-Lise Sollied og
+Carlo Allemano.

@@ -5,7 +5,17 @@
             <ul>
                 {% assign sections = site.sections | sort: 'order' %}
                 {% for section in sections %}
-                <li><a href="#{{ section.name | split: '.' | first }}">{{ section.title }}</a></li>
+                <li><a href="#{{ section.name | split: '.' | first }}">{% t section.title %}</a></li>
+                {% endfor %}
+
+                {% for lang in site.languages %}
+                {% if site.lang != lang %}
+                {% if lang == "en" %}
+                <li><a href="{{ page.url }}">{{ lang }}</a></li>
+                {% else %}
+                <li><a href="/{{ lang }}{{ page.url }}">{{ lang }}</a></li>
+                {% endif %}
+                {% endif %}
                 {% endfor %}
             </ul>
         </nav>

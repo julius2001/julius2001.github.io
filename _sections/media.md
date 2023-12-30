@@ -1,5 +1,5 @@
 ---
-title: Media
+title: media.title
 styles:
   - style1
 order: 3

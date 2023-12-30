@@ -1,5 +1,5 @@
 ---
-title: News
+title: news.title
 styles:
   - style1
 order: 1

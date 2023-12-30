@@ -1,19 +1,19 @@
 ---
-title: Contact
+title: contact.title
 styles:
   - style2
 order: 4
 ---
 
-## Get in touch
+## {% t contact.title_long %}
 
-- ### Email
+- ### {% t contact.email %}
   [{{ site.email }}](mailto:{{ site.email }})
-- ### Address
+- ### {% t contact.address %}
   Blindernveien 6B H1209 \
   0361 Oslo \
-  Norway
-- ### Social
+  {% t contact.country %}
+- ### {% t contact.social %}
   - <a href="https://www.facebook.com/profile.php?id={{ site.facebook_id }}" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
   - <a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
   - <a href="https://www.linkedin.com/in/{{ site.linkedin_id }}/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>

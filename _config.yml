@@ -32,12 +32,17 @@ spotify_id: 43ncTBkx9n8Yr1mfpbo5R7
 youtube_username: juliusvonforstner436
 linkedin_id: julius-von-forstner-a926392a7
 
+languages: ["en", "de", "no"]
+
 # Build settings
 sass:
   sass_dir: _sass
 
 collections:
   - sections
+
+plugins:
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
