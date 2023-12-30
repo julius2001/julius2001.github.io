@@ -15,9 +15,9 @@
 				padding-top: _size(sidebar-height);
 			}
 
-			@include breakpoint('<=small') {
+			/*@include breakpoint('<=small') {
 				padding-top: 0;
-			}
+			}*/
 		}
 
 		#header + & {

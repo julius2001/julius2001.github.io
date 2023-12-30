@@ -7,14 +7,15 @@
                 {% for section in sections %}
                 <li><a href="#{{ section.name | split: '.' | first }}">{% t section.title %}</a></li>
                 {% endfor %}
-
+            </ul>
+        </nav>
+        <nav class="language-chooser">
+            <ul>
                 {% for lang in site.languages %}
-                {% if site.lang != lang %}
                 {% if lang == "en" %}
-                <li><a href="{{ page.url }}">{{ lang }}</a></li>
+                <li><a href="{{ page.url }}" {% if site.lang == lang %}class="active"{% endif %}>{{ lang }}</a></li>
                 {% else %}
-                <li><a href="/{{ lang }}{{ page.url }}">{{ lang }}</a></li>
-                {% endif %}
+                <li><a href="/{{ lang }}{{ page.url }}" {% if site.lang == lang %}class="active"{% endif %}>{{ lang }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
