@@ -37,8 +37,19 @@ sass:
 collections:
   - sections
 
+responsive_image:
+  template: _includes/responsive-image-right.html
+  auto_rotate: true
+  strip: true
+  sizes:
+    - width: 480
+    - width: 640
+    - width: 1280
+    - width: 2560
+
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-responsive-image
 
 # Exclude from processing.
 # The following items will not be processed, by default.

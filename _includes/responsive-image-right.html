@@ -1,0 +1,9 @@
+{%- assign largest = resized | sort: 'width' | last -%}
+{%- capture srcset -%}
+{%- for i in resized -%}
+/{{ i.path }} {{ i.width }}w,
+{%- endfor -%}
+{%- endcapture -%}
+<span class="image right" style="width: 30%">
+<img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="30vw" loading="lazy">
+</span>

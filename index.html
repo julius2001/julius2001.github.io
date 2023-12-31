@@ -6,8 +6,14 @@ layout: default
 
 {% assign sections = site.sections | sort: 'order' %}
 {% for section in sections %}
-<section id="{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} {% if section.spotlights %} spotlights {% endif %} fade-up"
-    {% if section.background %} style="background-image: url('assets/img/{{ section.background }}')" {% endif %}>
+<section id="{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} {% if section.spotlights %} spotlights {% endif %} fade-up">
+    {%- capture imgpath -%}assets/img/{{ section.background }}{%- endcapture -%}
+    {%- if section.background -%}
+    {% responsive_image_block %}
+    path: {{ imgpath }}
+    template: _includes/responsive-image-section-background.html
+    {% endresponsive_image_block %}
+    {%- endif -%}
     {% unless section.spotlights %}<div class="inner">{% endunless %}
         {{ section.content }}
     {% unless section.spotlights %}</div>{% endunless %}

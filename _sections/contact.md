@@ -6,9 +6,7 @@ order: 4
 ---
 
 ## {% t contact.title_long %}
-<span class="image right" style="width: 30%">
-    <img src="assets/img/juliuspiano.jpg" loading="lazy"/>
-</span>
+{% responsive_image path: assets/img/juliuspiano.jpg %}
 {% t contact.text %}
 
 - ### {% t contact.email %}

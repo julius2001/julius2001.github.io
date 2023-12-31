@@ -1,7 +1,5 @@
 ## About me
-<span class="image right" style="width: 30%">
-    <img src="assets/img/happyjulius.jpg" loading="lazy"/>
-</span>
+{% responsive_image path: assets/img/happyjulius.jpg %}
 The pianist and bass-baritone, born in 2001 in Schleswig, Northern Germany, began his varied musical education 
 in his early childhood. After initially learning the basics of the piano on his own as well as singing in church choirs
 and playing the violin and viola, he began his piano education at the age of 10 with the Irish-German pianist

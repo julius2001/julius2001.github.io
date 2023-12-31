@@ -10,6 +10,14 @@
 		&.special {
 			text-align: center;
 		}
+
+		> img.background {
+			pointer-events: none;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 
 	header {

@@ -1,7 +1,5 @@
 ## Über mich
-<span class="image right" style="width: 30%">
-    <img src="assets/img/happyjulius.jpg" loading="lazy"/>
-</span>
+{% responsive_image path: assets/img/happyjulius.jpg %}
 Der Pianist und Bass-Bariton, geboren 2001 in Schleswig, begann schon in seiner frühen Kindheit seine musikalische
 Ausbildung in vielfältiger Weise. Zunächst durch selbstständiges Erlernen der Klaviergrundlagen dann über
 Kirchenchor, Geige und Bratschenspiel, begann er mit 10 Jahren seine Klavierausbildung bei dem irisch-deutschen

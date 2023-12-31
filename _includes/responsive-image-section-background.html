@@ -1,0 +1,7 @@
+{%- assign largest = resized | sort: 'width' | last -%}
+{%- capture srcset -%}
+{%- for i in resized -%}
+/{{ i.path }} {{ i.width }}w,
+{%- endfor -%}
+{%- endcapture -%}
+<img class="background" src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" loading="lazy">
