@@ -24,7 +24,7 @@
 			$body.addClass('is-ie');
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
+		$(document).ready(function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
