@@ -33,11 +33,13 @@ languages: ["en", "de", "no"]
 # Build settings
 sass:
   sass_dir: _sass
+  style: compressed
 
 collections:
   - sections
 
 responsive_image:
+  default_quality: 80
   template: _includes/responsive-image-right.html
   auto_rotate: true
   strip: true
