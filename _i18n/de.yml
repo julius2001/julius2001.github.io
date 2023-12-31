@@ -1,8 +1,10 @@
+site_title:
+  Julius von Forstner
 description:
-  Julius von Forstner · Pianist · Bass-Bariton
+  Pianist und Bass-Bariton in Oslo, Norwegen · Student an der Norwegischen Musikhochschule
 intro:
   title: Willkommen
-  text: Pianist · Bass-Bariton
+  text: Pianist · Bass-Bariton<br>in Oslo, Norwegen
 news:
   title: News
 about:
@@ -12,6 +14,7 @@ media:
 contact:
   title: Kontakt
   title_long: Kontakt
+  text: Gerne können Sie mir eine Nachricht schreiben. An Konzertanfragen jeder Art, sowohl als Pianist als auch als Sänger, bin ich sehr interessiert!
   email: E-Mail
   address: Adresse
   country: Norwegen

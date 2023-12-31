@@ -1,8 +1,10 @@
+site_title:
+  Julius von Forstner
 description:
-  Julius von Forstner · Pianist · Bassbaryton
+  Pianist og Bassbaryton i Oslo · student ved NMH Norges Musikkhøgskole
 intro:
   title: Velkommen
-  text: Pianist · Bassbaryton
+  text: Pianist · Bassbaryton<br>for tiden basert i Oslo
 news:
   title: Nyheter
 about:
@@ -12,6 +14,7 @@ media:
 contact:
   title: Kontakt
   title_long: Ta kontakt
+  text: Du er velkommen til å skrive en melding til meg. Jeg er veldig interessert i konsertforespørsler av alle slag, både som pianist og sanger!
   email: E-post
   address: Adresse
   country: Norge

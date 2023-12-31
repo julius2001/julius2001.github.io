@@ -12,14 +12,20 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 
+		h1 {
+			text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		}
+
 		p {
 			font-size: 1.25em;
+			color: white;
+			text-shadow: 0 10px 20px rgba(0,0,0,0.38), 0 6px 6px rgba(0,0,0,0.46);
 
-			@include breakpoint('<=medium') {
+			/*@include breakpoint('<=medium') {
 				br {
 					display: none;
 				}
-			}
+			}*/
 
 			@include breakpoint('<=small') {
 				font-size: 1em;

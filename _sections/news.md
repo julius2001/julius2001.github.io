@@ -8,7 +8,7 @@ spotlights: true
 
 {% for post in site.posts %}
 <section>
-    {% if post.image %}<a {% if post.image_link %}href="{{ post.image_link }}"{% endif %} class="image"><img src="assets/img/{{ post.image }}" alt="" data-position="center center" /></a>{% endif %}
+    {% if post.image %}<a {% if post.image_link %}href="{{ post.image_link }}"{% endif %} class="image"><img src="assets/img/{{ post.image }}" alt="" data-position="center center" loading="lazy" /></a>{% endif %}
     <div class="content">
         <div class="inner">
             <header>
