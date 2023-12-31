@@ -61,6 +61,11 @@
 			@include vendor('justify-content', 'center');
 			min-height: 100vh;
 
+			> .inner {
+				// compensate for difference in viewport height because of address bar
+				padding-bottom: calc(2em + 100lvh - 100svh);
+			}
+
 			body.is-ie & {
 				height: 100vh;
 			}
