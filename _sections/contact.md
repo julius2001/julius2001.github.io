@@ -1,8 +1,8 @@
 ---
 title: contact.title
 styles:
-  - style2
-order: 4
+  - style1
+order: 5
 ---
 
 ## {% t contact.title_long %}

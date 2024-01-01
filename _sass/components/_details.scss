@@ -1,0 +1,47 @@
+/* Detail */
+
+    details {
+      padding: 1em;
+
+      > summary {
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 0; /* for more prominent move */
+        transition: margin 150ms ease-out;
+        list-style: none;
+
+        > * {
+          display: inline;
+        }
+
+        @include icon("\f054", solid, before);
+        &:before {
+          width: 1em;
+          text-align: center;
+          transition: .2s transform ease-out, color 0.2s ease;
+        }
+
+        &:hover:before {
+          color: _palette(fg-bold);
+        }
+      }
+
+      &[open] > summary {
+        margin-bottom: 1em;
+
+        &:before {
+          transform: rotate(90deg);
+        }
+      }
+
+      > ul {
+        margin-bottom: 1em;
+      }
+    }
+
+    .wrapper.style2 details {
+      background-color: _palette(accent2-alt);
+    }
+    .wrapper.style1 details {
+      background-color: _palette(accent1-alt);
+    }
