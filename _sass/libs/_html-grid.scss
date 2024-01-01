@@ -1,6 +1,7 @@
 // html-grid.scss v1.0 | @ajlkn | MIT licensed */
 
 // Mixins.
+	@use "sass:math";
 
 	/// Initializes the current element as an HTML grid.
 	/// @param {mixed} $gutters Gutters (either a single number to set both column/row gutters, or a list to set them individually).
@@ -10,7 +11,7 @@
 		// Initialize.
 			$cols: 12;
 			$multipliers: 0, 0.25, 0.5, 1, 1.50, 2.00;
-			$unit: 100% / $cols;
+			$unit: math.div(100%, $cols);
 
 			// Suffixes.
 				$suffixes: null;
