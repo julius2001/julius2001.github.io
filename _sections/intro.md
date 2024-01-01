@@ -11,5 +11,5 @@ background: welcome.jpg
 {% t intro.text %}
 
 <ul class="actions">
-    <li><a href="#news"><i class="icon solid major fa-arrow-down"></i></a></li>
+    <li><a href="#news" class="scrolly"><i class="icon solid major fa-arrow-down"></i></a></li>
 </ul>
