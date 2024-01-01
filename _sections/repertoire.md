@@ -144,7 +144,7 @@ order: 4
 - Zauberflöte (Sarastro)
 
 #### Mendelssohn
-- Eliah op. 70: Aria „Es ist genug”
+- Elijah op. 70: Aria „Es ist genug”
 
 #### Schubert
 - Winterreise D. 913
