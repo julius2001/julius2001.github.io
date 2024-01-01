@@ -11,7 +11,7 @@ order: 4
 <div class="col-6 col-12-medium" markdown="block">
 <details markdown="block">
 <summary markdown="block">
-### Piano
+### {% t repertoire.piano %}
 </summary>
 
 #### Arutiunian
@@ -110,7 +110,7 @@ order: 4
 <div class="col-6 col-12-medium" markdown="block">
 <details markdown="block">
 <summary markdown="block">
-### Vocal
+### {% t repertoire.vocal %}
 </summary>
 
 #### Bach

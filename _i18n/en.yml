@@ -13,6 +13,8 @@ media:
   title: Media
 repertoire:
   title: Repertoire
+  piano: Piano
+  vocal: Vocal
 contact:
   title: Contact
   title_long: Get in touch
