@@ -8,7 +8,6 @@
         user-select: none;
         margin-bottom: 0; /* for more prominent move */
         transition: margin 150ms ease-out;
-        list-style: none;
 
         > * {
           display: inline;
@@ -23,6 +22,12 @@
 
         &:hover:before {
           color: _palette(fg-bold);
+        }
+
+        // hide original marker
+        list-style: none;
+        &::marker, &::-webkit-details-marker {
+          display: none;
         }
       }
 
