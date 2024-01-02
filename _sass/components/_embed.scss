@@ -1,0 +1,16 @@
+%embed {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 12px;
+}
+
+.youtube-embed {
+  @extend %embed;
+  max-height: 315px;
+  aspect-ratio: 16/9;
+}
+
+.spotify-embed {
+  @extend %embed;
+  height: 352px;
+}
