@@ -18,11 +18,11 @@ order: 4
 - Suite for Clarinet, Violin and Piano
 
 #### Bach
-- English Suite No. 3 g-moll: 1. Prelude
+- English Suite No. 3 g-Moll: 1. Prelude
 - WTK I No. 1 C-Dur
 - WTK I No. 3 Cis-Dur
 - WTK I No. 13 Fis-Dur
-- WTK I No. 22 b-moll
+- WTK I No. 22 b-Moll
 - WTK II No. 19 A-Dur
 
 #### Beethoven
@@ -35,18 +35,18 @@ order: 4
 - 4 Ballades op. 10
 - 3 Intermezzi op. 117
 - 8 Klavierstücke op. 76
-- Rhapsodie op. 79 No. 2 g-moll
+- Rhapsodie op. 79 No. 2 g-Moll
 
 #### Chopin
-- Ballade op. 23 No. 1
+- Ballade op. 23 No. 1 g-Moll
 - Berceuse op. 57
 - Etude op. 10 No. 12
 - Etude op. 25 No. 1-3, 5
-- Nocturne op. 27 No. 1
-- Nocturne op. 48 No. 1
-- Scherzo op. 20 No. 2
+- Nocturne op. 27 No. 1 cis-Moll
+- Nocturne op. 48 No. 1 c-Moll
+- Scherzo No. 2 b-moll, op. 31
 - Sonata No. 3 h-Moll, op. 58
-- Prelude Op. 45 cis-moll
+- Prelude Op. 45 cis-Moll
 
 #### Debussy
 - 2 Arabesques L. 66
@@ -73,13 +73,13 @@ order: 4
 - Sonata C-Dur K. 330
 
 #### Prokofiev
-- Sonata D-Moll op. 14
+- Sonata d-Moll op. 14
 
 #### Rachmaninov
 - Concerto No. 2 c-moll op. 18
 - Suite No. 1 for 2 Pianos op. 5
 - 6 Morceaux for Piano 4-Hands op. 11 No. 1
-- Etude-Tableaux op. 39 No. 5 Es-moll
+- Etude-Tableaux op. 39 No. 5 es-Moll
 - Prelude op. 23 No. 4
 - Prelude op. 32 No. 12
 
@@ -114,14 +114,14 @@ order: 4
 </summary>
 
 #### Bach
-- Aria „Mache dich mein Herze rein”, BWV 244
-- Aria „Gebt mir meinen Jesum wieder“, BWV 244
-- Aria „Großer Herr und starker König“, BWV 248
+- St Matthew Passion: Aria „Mache dich mein Herze rein”, BWV 244
+- St Matthew Pasiom: Aria „Gebt mir meinen Jesum wieder“, BWV 244
+- Christmas Oratorio: „Großer Herr und starker König“, BWV 248
 
 #### Brahms
 - Vier ernste Gesänge op. 121
-- „Nicht mehr zu dir zu gehen“, op. 32
-- „Alte Liebe“, „Sommerfäden“, op. 72
+- „Nicht mehr zu dir zu gehen“, op. 32 No. 1
+- „Alte Liebe“, „Sommerfäden“, op. 72 No. 1, 2
 
 #### L. Boulanger
 - „Dans l‘immense tristesse“
@@ -130,7 +130,7 @@ order: 4
 - „Ved rondane“, op. 33
 
 #### Haydn
-- From Jahreszeiten Hob XXI:3: Recitativo and Aria “Von dürrem Oste“ and „Erblicke hier betörter Mensch“
+- Jahreszeiten Hob XXI:3: Recitativo and Aria “Von dürrem Oste“ and „Erblicke hier betörter Mensch“
 
 #### F. Hensel
 - „Dämmrung senkte sich von oben“
