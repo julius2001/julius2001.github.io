@@ -114,9 +114,11 @@ order: 4
 </summary>
 
 #### Bach
-- St Matthew Passion: Aria „Mache dich mein Herze rein”, BWV 244
-- St Matthew Pasiom: Aria „Gebt mir meinen Jesum wieder“, BWV 244
-- Christmas Oratorio: „Großer Herr und starker König“, BWV 248
+- St Matthew Passion, BWV 244:
+  - Aria „Mache dich mein Herze rein”
+  - Aria „Gebt mir meinen Jesum wieder“
+- Christmas Oratorio, BWV 248:
+  - „Großer Herr und starker König“
 
 #### Brahms
 - Vier ernste Gesänge op. 121
