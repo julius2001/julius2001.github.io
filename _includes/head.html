@@ -17,18 +17,18 @@
 <meta name="theme-color" content="#0d1f2d">
 
 {% for lang in site.languages %}
-{% if site.lang != lang %}
-{% if lang == "en" %}
+{%- if site.lang != lang -%}
+{%- if lang == "en" -%}
 <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: page.url }}"/>
-{% else %}
+{%- else -%}
 <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}"/>
-{% endif %}
-{% endif %}
+{%- endif -%}
+{%- endif -%}
 {% endfor %}
 
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
-{% if page.layout == 'default' %}
+{%- if page.layout == 'default' -%}
 <script type="application/ld+json">
     {
         "@context" : "https://schema.org",
@@ -37,4 +37,4 @@
         "url" : "{{ site.url }}"
     }
 </script>
-{% endif %}
+{%- endif -%}
