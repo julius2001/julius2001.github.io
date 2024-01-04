@@ -27,3 +27,14 @@
 {% endfor %}
 
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+
+{% if page.layout == 'default' %}
+<script type="application/ld+json">
+    {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "{% t site_title %}",
+        "url" : "{{ site.url }}"
+    }
+</script>
+{% endif %}
