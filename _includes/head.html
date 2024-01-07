@@ -28,13 +28,19 @@
 
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
-{%- if page.layout == 'default' -%}
+<meta property="og:site_name" content="{% t site_title %}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+<meta property="og:title" content="{% t site_title %}">
+<meta property="og:description" content="{% t description %}">
+<meta property="og:locale" content="{{ site.lang }}">
+<meta property="og:updated_time" content="{{ 'now' | date_to_xmlschema }}">
+{% if page.layout == 'default' %}
 <script type="application/ld+json">
     {
         "@context" : "https://schema.org",
         "@type" : "WebSite",
         "name" : "{% t site_title %}",
-        "url" : "{{ site.url }}"
+        "url" : "{{ site.url }}{{ site.baseurl_root }}/"
     }
 </script>
 {%- endif -%}
