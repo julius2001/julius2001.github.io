@@ -6,7 +6,7 @@ layout: default
 
 {% assign sections = site.sections | sort: 'order' %}
 {% for section in sections %}
-<section id="{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} {% if section.spotlights %} spotlights {% endif %} fade-up">
+<section id="section-{{ section.name | split: '.' | first }}" class="wrapper {{ section.styles | join: ' ' }} {% if section.spotlights %} spotlights {% endif %} fade-up">
     {%- capture imgpath -%}assets/img/{{ section.background }}{%- endcapture -%}
     {%- if section.background -%}
     {% responsive_image_block %}
