@@ -1,8 +1,8 @@
 <title>{% t site_title %}</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="/assets/css/main.css" />
-<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/main.css">
+<noscript><link rel="stylesheet" href="/assets/css/noscript.css"></noscript>
 
 {% if page.layout == 'default' %}
 <meta name="description" content="{% t description %}">
@@ -19,9 +19,9 @@
 {% for lang in site.languages %}
 {%- if site.lang != lang -%}
 {%- if lang == "en" -%}
-<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: page.url }}"/>
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: page.url }}">
 {%- else -%}
-<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}"/>
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}">
 {%- endif -%}
 {%- endif -%}
 {% endfor %}
