@@ -40,7 +40,8 @@
         "@context" : "https://schema.org",
         "@type" : "WebSite",
         "name" : "{% t site_title %}",
-        "url" : "{{ site.url }}{{ site.baseurl_root }}/"
+        "url" : "{{ site.url }}{{ site.baseurl_root }}/",
+        "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}"
     }
 </script>
 {%- endif -%}
