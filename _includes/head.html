@@ -37,13 +37,10 @@
     {
         "@context" : "https://schema.org",
         "@type" : "WebSite",
-        "url" : "{{ site.url }}{{ site.baseurl_root }}/",
-    {% comment %}
+        "url" : "{{ site.url }}{{ site.baseurl }}/",
         "name" : "{% t site_title %}",
-        "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}"
-    {% endcomment %}
-        "name" : "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}",
-        "alternateName": "{% t site_title %}"
+        "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}",
+        "inLanguage": "{{ site.lang }}"
     }
 </script>
 {%- endif -%}
