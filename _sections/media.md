@@ -15,6 +15,6 @@ order: 3
 </div>
 <div class="col-6 col-12-medium" markdown="block">
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/yBwrYHttv6I?si=f9Wl6Y7dcufqTZ5A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-<iframe class="youtube-embed" src="https://www.youtube.com/embed/f_QKzTfT6MQ?si=uOHICTE4XG9I8sy3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe class="youtube-embed" src="https://www.youtube.com/embed/C5bCbI48-RU?si=0u1OowcR-jYcbNN6" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 </div>
