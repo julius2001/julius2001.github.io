@@ -1,8 +1,8 @@
 <title>{% t site_title %}</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="/assets/css/main.css" />
-<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/main.css">
+<noscript><link rel="stylesheet" href="/assets/css/noscript.css"></noscript>
 
 {% if page.layout == 'default' %}
 <meta name="description" content="{% t description %}">
@@ -17,24 +17,30 @@
 <meta name="theme-color" content="#0d1f2d">
 
 {% for lang in site.languages %}
-{%- if site.lang != lang -%}
 {%- if lang == "en" -%}
-<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: page.url }}"/>
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: page.url }}">
 {%- else -%}
-<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}"/>
-{%- endif -%}
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}">
 {%- endif -%}
 {% endfor %}
 
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
-{%- if page.layout == 'default' -%}
+<meta property="og:site_name" content="{% t site_title %}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+<meta property="og:title" content="{% t site_title %}">
+<meta property="og:description" content="{% t description %}">
+<meta property="og:locale" content="{{ site.lang }}">
+<meta property="og:updated_time" content="{{ 'now' | date_to_xmlschema }}">
+{% if page.layout == 'default' %}
 <script type="application/ld+json">
     {
         "@context" : "https://schema.org",
         "@type" : "WebSite",
+        "url" : "{{ site.url }}{{ site.baseurl }}/",
         "name" : "{% t site_title %}",
-        "url" : "{{ site.url }}"
+        "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}",
+        "inLanguage": "{{ site.lang }}"
     }
 </script>
 {%- endif -%}
