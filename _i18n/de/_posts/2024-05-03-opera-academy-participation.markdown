@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aufnahme in Königin Sonja's Opernakademie"
+title:  "Aufnahme in Königin Sonjas Opernakademie"
 image: opera-academy.jpg
 image_link: https://qssc.no/en/about-the-competition/the-opera-academy
 ---
