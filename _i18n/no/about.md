@@ -27,4 +27,4 @@ Høsten 2023 flyttet Julius von Forstner til **Oslo**, blant annet på grunn av 
 kultur.
 Dermed begynte han masterstudiet sitt i utøvende klaver med **professor Håvard Gimse** ved **Norges musikkhøgskole**.
 Samtidig fortsette han vokalstudiene ved UiT Norges arktiske universitet med **professorene Anne-Lise Sollied** og
-**Carlo Allemano**.
+**Carlo Allemano**. Til sesongen 2024/2025 har Julius blitt utvalgt til å delta i **Dronning Sonjas Operaakademiet**.

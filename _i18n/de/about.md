@@ -24,4 +24,7 @@ ergänzende Fähigkeiten, die ihn als Musiker stark bereichern.
 Im Herbst 2023 zog es Julius von Forstner nach **Oslo, Norwegen**, auch wegen seiner großen Begeisterung für das Land
 und die Kultur. An der **Norwegischen Musikhochschule** begann er seinen Master in Performing Arts bei
 **Prof. Håvard Gimse**. Parallel setzt er sein Gesangsstudium an der arktischen Universität in Tromsø bei
-**Prof. Anne-Lise Sollied** sowie **Prof. Carlo Allemano** fort.
+**Prof. Anne-Lise Sollied** sowie **Prof. Carlo Allemano** fort. Für die Saison 2024/2025 wurde
+Julius von Forstner in die norwegische **Opernakademie**
+unter Schirmherrschaft der Königin Sonja
+aufgenommen.

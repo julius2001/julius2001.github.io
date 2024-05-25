@@ -28,4 +28,4 @@ as a musician.
 In the fall of 2023, Julius von Forstner moved to **Oslo, Norway**, also because of his great enthusiasm for the country
 and its culture. At the **Norwegian Academy of Music**, he began his master studies in performing arts with
 **Prof. Håvard Gimse**. At the same time, he is continuing his vocal studies at the Arctic University in Tromsø with
-**Prof. Anne-Lise Sollied** and **Prof. Carlo Allemano**.
+**Prof. Anne-Lise Sollied** and **Prof. Carlo Allemano**. For the season 2024/2025 Julius von Forstner got invited to the **Queen Sonja Opera Academy**.
