@@ -14,6 +14,7 @@ order: 3
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/NGa2j7zgV0E?si=rxUziBy7AOiv_p7k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 <div class="col-6 col-12-medium" markdown="block">
+<iframe class="youtube-embed" src="https://www.youtube.com/embed/MXrltM-9l54?si=0aXMtMEyXzJ9DlUx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/yBwrYHttv6I?si=f9Wl6Y7dcufqTZ5A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/C5bCbI48-RU?si=0u1OowcR-jYcbNN6" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
