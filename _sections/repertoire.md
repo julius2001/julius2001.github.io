@@ -31,6 +31,10 @@ order: 4
 - Sonata No. 8 c-Moll, op. 13
 - Sonata No. 18 Es-Dur, op. 31 No. 3
 
+#### Amy Beach
+- Out of the Depths, op. 130
+- Piano Trio in a minor, op. 150
+
 #### Brahms
 - 4 Ballades op. 10
 - 3 Intermezzi op. 117
@@ -131,6 +135,9 @@ order: 4
 #### Grieg
 - „Ved rondane“, op. 33
 
+#### Händel
+- Messiah, Rezitativo and Aria „For Behold, Darkness...The People that walked in Darkness”
+
 #### Haydn
 - Jahreszeiten Hob XXI:3: Recitativo and Aria “Von dürrem Oste“ and „Erblicke hier betörter Mensch“
 
@@ -157,12 +164,20 @@ order: 4
 - Wanderers Nachtlied D. 224
 - Auf der Donau D. 553
 - Die Mainacht D. 194
+- Fahrt zum Hades D. 526
+- Am Tage aller Seelen D. 343
 
 #### Schumann
 - Dichterliebe op. 48
 
 #### Ralph Vaughan Williams
 - Songs of Travel
+
+#### Verdi
+- from "Simon Boccanegra": Il lacerato spirito
+
+#### Hugo Wolf
+- Michelangelo-Lieder
 </details>
 </div>
 </div>
