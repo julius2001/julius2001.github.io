@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Single veröffentlicht: \"Amy Beach: Out of the Depths"\""
+title:  "Single veröffentlicht: \"Amy Beach: Out of the Depths\""
 image: amy-beach-cover.jpg
 image_link: https://push.fm/fl/v3u43vue
 ---
