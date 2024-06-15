@@ -2,7 +2,7 @@
 title: repertoire.title
 styles:
   - style2
-order: 4
+order: 5
 ---
 
 ## {% t repertoire.title %}

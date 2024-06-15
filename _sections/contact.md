@@ -2,7 +2,7 @@
 title: contact.title
 styles:
   - style1
-order: 5
+order: 6
 ---
 
 ## {% t contact.title_long %}

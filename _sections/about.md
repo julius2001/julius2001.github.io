@@ -2,7 +2,7 @@
 title: about.title
 styles:
   - style2
-order: 2
+order: 3
 ---
 
 {% tf about.md %}

@@ -2,7 +2,7 @@
 title: media.title
 styles:
   - style1
-order: 3
+order: 4
 ---
 
 ## Media
