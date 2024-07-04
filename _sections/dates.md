@@ -5,14 +5,20 @@ styles:
 order: 2
 ---
 ## {%t dates.title %}
+**22-28 January 2024 – Lillesand/Kristiansand, Norway**\
+Concert Tour with NMH pianists
+
+**16 April 2024 – Lahti, Finland**\
+Concert as part of the ERASMUS funded BAIL project
+
 **03 May 2024 – Levinsalen NMH, Oslo, Norway**\
-Schuberts Complete Sonatas concert together with NMH pianists
+Schuberts Complete Piano Sonatas concert together with NMH pianists
 
 **10 May 2024 – Lindemansalen NMH, Oslo, Norway**\
-Concert in cooperation withthe polish embassy
+Concert in cooperation with the polish embassy
 
 **11 May 2024 – Sagene kirke, Oslo, Norway**\
-Schubert Complete Sonatas marathon concert together with pianists
+Schubert Complete Piano Sonatas marathon concert together with NMH pianists
 
 **03 June 2024 – Musikkonservatoriet Tromsø, Norway**\
 Singing exam concert
