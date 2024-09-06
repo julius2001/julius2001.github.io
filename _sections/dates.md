@@ -15,7 +15,7 @@ Concert as part of the ERASMUS funded BAIL project
 Schuberts Complete Piano Sonatas concert together with NMH pianists
 
 **10 May 2024 – Lindemansalen NMH, Oslo, Norway**\
-Concert in cooperation with the polish embassy
+Concert in cooperation with the Polish embassy
 
 **11 May 2024 – Sagene kirke, Oslo, Norway**\
 Schubert Complete Piano Sonatas marathon concert together with NMH pianists
