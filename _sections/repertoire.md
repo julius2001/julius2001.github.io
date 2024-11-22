@@ -129,14 +129,21 @@ order: 5
 - „Nicht mehr zu dir zu gehen“, op. 32 No. 1
 - „Alte Liebe“, „Sommerfäden“, op. 72 No. 1, 2
 
+#### Beethoven
+- from Fidelio: ”Hat man nicht auch Gold beineben”
+
 #### L. Boulanger
 - „Dans l‘immense tristesse“
+
+#### Carlisle Floyd
+- Aria "I'm a lonely man Susannah"
 
 #### Grieg
 - „Ved rondane“, op. 33
 
 #### Händel
 - Messiah, Rezitativo and Aria „For Behold, Darkness...The People that walked in Darkness”
+- Theodora, “Racks, gibbets, sword and fire”
 
 #### Haydn
 - Jahreszeiten Hob XXI:3: Recitativo and Aria “Von dürrem Oste“ and „Erblicke hier betörter Mensch“
@@ -169,6 +176,12 @@ order: 5
 
 #### Schumann
 - Dichterliebe op. 48
+
+#### Sibelius
+- “Come away, death” op.60 No. 1
+
+#### Strauß
+- from "Die schweigsame Frau": "Wie schön ist doch die Musik"
 
 #### Ralph Vaughan Williams
 - Songs of Travel
