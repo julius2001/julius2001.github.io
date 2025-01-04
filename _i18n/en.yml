@@ -9,6 +9,8 @@ news:
   title: News
 dates:
   title: Calendar
+  upcoming: Upcoming performances
+  archive: Archive
 about:
   title: About
 media:

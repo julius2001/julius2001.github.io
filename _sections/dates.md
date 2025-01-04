@@ -5,26 +5,46 @@ styles:
 order: 2
 ---
 ## {%t dates.title %}
-**22-28 January 2024 – Lillesand/Kristiansand, Norway**\
-Concert Tour with NMH pianists
+### {%t dates.upcoming %}
 
-**16 April 2024 – Lahti, Finland**\
-Concert as part of the ERASMUS funded BAIL project
+**26 January 2025, 3 PM – Levinsalen NMH, Oslo, Norway**\\
+[Closing concert of NMH pianists' concert tour](https://nmh.no/konserter/lyden-av-natur)
 
-**03 May 2024 – Levinsalen NMH, Oslo, Norway**\
-Schuberts Complete Piano Sonatas concert together with NMH pianists
+**10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
+[Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
 
-**10 May 2024 – Lindemansalen NMH, Oslo, Norway**\
-Concert in cooperation with the Polish embassy
+**05 June 2025, 7:45 PM – Lindemansalen NMH, Oslo, Norway**\\
+Piano master degree exam concert
 
-**11 May 2024 – Sagene kirke, Oslo, Norway**\
-Schubert Complete Piano Sonatas marathon concert together with NMH pianists
+**27 - 31 August 2025 – Hardanger, Norway**\\
+Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
 
-**03 June 2024 – Musikkonservatoriet Tromsø, Norway**\
-Singing exam concert
+<details markdown="block">
+<summary markdown="block">
+**{% t dates.archive %}**
+</summary>
 
-**20 July 2024, 7 PM – Gasteig Munich, Germany**\
+**06 August 2024 – Venabu Fjellhotell, Norway**\\
+solo piano recital
+
+**20 July 2024, 7 PM – Gasteig Munich, Germany**\\
 piano soloist at "vokalSinn" Choir Festival
 
-**06 August 2024 – Venabu Fjellhotell, Norway**\
-solo piano recital
+**03 June 2024 – Musikkonservatoriet Tromsø, Norway**\\
+Singing exam concert
+
+**11 May 2024 – Sagene kirke, Oslo, Norway**\\
+Schubert Complete Piano Sonatas marathon concert together with NMH pianists
+
+**10 May 2024 – Lindemansalen NMH, Oslo, Norway**\\
+Concert in cooperation with the Polish embassy
+
+**03 May 2024 – Levinsalen NMH, Oslo, Norway**\\
+Schuberts Complete Piano Sonatas concert together with NMH pianists
+
+**16 April 2024 – Lahti, Finland**\\
+Concert as part of the ERASMUS funded BAIL project
+
+**22-28 January 2024 – Lillesand/Kristiansand, Norway**\\
+Concert Tour with NMH pianists
+</details>
