@@ -13,7 +13,7 @@ Etter videregående begynte han med sitt bachelorstudiet i klaver ved **Musikkh�
 med **professor Kalle Randalu** i 2019, som han fullførte med utmerkelse i 2023.
 I 2022 fullførte Julius von Forstner med stor entusiasme et ERASMUS-utvekslingssemester ved UiT Norges arktiske
 universitet i Tromsø med **professor Sergej Osadchuk**.
-Han fikk også viktige impulser fra Heike Allardt, Andrej Jussow, Vadim Palmov,
+Han fikk også viktige impulser fra Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 ved Mattheiser sommerakademi, Nordland kammermusikkurs og fra **professor Christopher Park** under
 Voksenåsen sommerakademi.
 
