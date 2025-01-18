@@ -11,7 +11,7 @@ Nach dem Abitur begann er 2019 das künstlerische Bachelorstudium Klavier an der
 **Prof. Kalle Randalu**, welches er 2023 mit Auszeichnung abschloss.
 Im Jahr 2022 absolvierte Julius von Forstner mit großer Begeisterung ein ERASMUS-Austauschsemester an der
 arktischen Universität in Tromsø, Norwegen, bei **Prof. Sergej Osadchuk**.
-Weitere wichtige Impulse erhielt er außerdem von Heike Allardt, Andrej Jussow, Vadim Palmov,
+Weitere wichtige Impulse erhielt er außerdem von Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 bei der Mattheiser Sommerakademie, dem Nordland-Kammermusikkurs sowie von **Prof. Christopher Park** während der
 Voksenåsen-Sommerakademie.
 
