@@ -14,7 +14,7 @@ After graduating from high school, he began his studies for an artistic piano ba
 in 2023.
 In 2022, Julius von Forstner enthusiastically completed an ERASMUS exchange semester at the Arctic University of
 Tromsø, Norway, with **Prof. Sergej Osadchuk**.
-He also received further important impulses from Heike Allardt, Andrej Jussow, Vadim Palmov,
+He also received further important impulses from Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 at the Mattheiser Summer Academy, the Nordland Chamber Music Course and from **Prof. Christopher Park** during the
 Voksenåsen Summer Academy.
 
