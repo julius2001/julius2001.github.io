@@ -10,6 +10,12 @@ order: 2
 **26 January 2025, 3 PM – Levinsalen NMH, Oslo, Norway**\\
 [Closing concert of NMH pianists' concert tour](https://nmh.no/konserter/lyden-av-natur)
 
+**22 March 2025, 12 AM – Sagene Kirke, Oslo, Norway**\\
+[Master Recital - Nostalgia through the times]
+
+**27 March 2025, 6 PM – Levinsalen NMH, Oslo, Norway**\\
+[Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
+
 **10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
 [Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
 
