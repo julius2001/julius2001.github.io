@@ -11,13 +11,33 @@ order: 2
 [Closing concert of NMH pianists' concert tour](https://nmh.no/konserter/lyden-av-natur)
 
 **22 March 2025, 12 AM – Sagene Kirke, Oslo, Norway**\\
-[Master Recital - Nostalgia through the times]
+Master Recital - Nostalgia through the times
 
 **27 March 2025, 6 PM – Levinsalen NMH, Oslo, Norway**\\
 [Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
 
 **10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
 [Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
+
+**25 April 2025, 7 PM – Rødbanken Festsal, Tromsø, Norway**\\
+Operakafé
+
+**30 April 2025, 6 PM – Nasjonalmuseet, Oslo, Norway**\\
+Galaconcert arranged by Queen Sonja singing competition
+
+**8 May 2025, 6 PM – Sagene Kirke, Oslo, Norway**\\
+Chopin Nocturnes with NMH's pianists
+
+**10 May 2025, 4 PM – Sandvoldsalen, NMH, Oslo, Norway**\\
+[Chopin Nocturnes with NMH's pianists]
+(https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
+
+**20 May 2025, 6 PM – Levinsalen, NMH, Oslo, Norway**\\
+Concert with the sing interpretation class of Matti Hirvonen
+
+**28 May 2025, 1 PM – Musikkonservatoriet, Tromsø, Norway**\\
+Sangeksamen
+
 
 **05 June 2025, 7:45 PM – Lindemansalen NMH, Oslo, Norway**\\
 Piano master degree exam concert
