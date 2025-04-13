@@ -17,7 +17,7 @@ Master Recital - Nostalgia through the times
 [Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
 
 **10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
-[Grieg's Slåtter] (https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
+[Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
 
 **25 April 2025, 7 PM – Rødbanken Festsal, Tromsø, Norway**\\
 Operakafé
