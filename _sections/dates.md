@@ -17,7 +17,7 @@ Master Recital - Nostalgia through the times
 [Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
 
 **10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
-[Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
+[Grieg's Slåtter (https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
 
 **25 April 2025, 7 PM – Rødbanken Festsal, Tromsø, Norway**\\
 Operakafé
@@ -29,8 +29,7 @@ Galaconcert arranged by Queen Sonja singing competition
 Chopin Nocturnes with NMH's pianists
 
 **10 May 2025, 4 PM – Sandvoldsalen, NMH, Oslo, Norway**\\
-[Chopin Nocturnes with NMH's pianists]
-(https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
+[Chopin Nocturnes with NMH's pianists](https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
 
 **20 May 2025, 6 PM – Levinsalen, NMH, Oslo, Norway**\\
 Concert with the sing interpretation class of Matti Hirvonen
