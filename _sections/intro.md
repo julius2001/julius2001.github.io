@@ -4,7 +4,7 @@ styles:
   - style1
   - fullscreen
 order: 0
-background: welcome_25.jpeg
+background: welcome.jpg
 ---
 
 # Julius von Forstner
