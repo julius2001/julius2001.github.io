@@ -16,7 +16,7 @@ order: 6
   0361 Oslo \
   {% t contact.country %}
 - ### {% t contact.orgnumb %}
-  935024692 \
+  935024692
 - ### {% t contact.social %}
   - <a href="https://www.facebook.com/profile.php?id={{ site.facebook_id }}" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
   - <a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
