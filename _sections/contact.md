@@ -6,7 +6,7 @@ order: 6
 ---
 
 ## {% t contact.title_long %}
-{% responsive_image path: assets/img/juliuspiano.jpg %}
+{% responsive_image path: assets/img/happyjulius.jpg %}
 {% t contact.text %}
 
 - ### {% t contact.email %}
