@@ -38,8 +38,8 @@ Concert with the sing interpretation class of Matti Hirvonen
 Sangeksamen
 
 
-**05 June 2025, 7:45 PM – Lindemansalen NMH, Oslo, Norway**\\
-Piano master degree exam concert
+**05 June 2025, 8 PM – Lindemansalen NMH, Oslo, Norway**\\
+[Piano master degree exam concert](https://nmh.no/konserter/into-the-unknown)
 
 **27 - 31 August 2025 – Hardanger, Norway**\\
 Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
