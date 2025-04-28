@@ -25,6 +25,9 @@ Operakafé
 **30 April 2025, 6 PM – Nasjonalmuseet, Oslo, Norway**\\
 Galaconcert arranged by Queen Sonja singing competition
 
+**6 May 2025, 1 PM – Sagene Kirke, Oslo, Norway**\\
+Scriabin Sonatas at opening of Hollenbachfestivalen
+
 **8 May 2025, 6 PM – Sagene Kirke, Oslo, Norway**\\
 Chopin Nocturnes with NMH's pianists
 
