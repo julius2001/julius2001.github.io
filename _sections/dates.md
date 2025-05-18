@@ -34,12 +34,11 @@ Chopin Nocturnes with NMH's pianists
 **10 May 2025, 4 PM – Sandvoldsalen, NMH, Oslo, Norway**\\
 [Chopin Nocturnes with NMH's pianists](https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
 
-**20 May 2025, 6 PM – Levinsalen, NMH, Oslo, Norway**\\
-Concert with the sing interpretation class of Matti Hirvonen
+**20 May 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
+Concert with the song interpretation class of Matti Hirvonen
 
 **28 May 2025, 1 PM – Musikkonservatoriet, Tromsø, Norway**\\
 Sangeksamen
-
 
 **05 June 2025, 8 PM – Lindemansalen NMH, Oslo, Norway**\\
 [Piano master degree exam concert](https://nmh.no/konserter/into-the-unknown)
