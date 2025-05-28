@@ -28,7 +28,7 @@ Kombinasjonen av piano og sang gir ham ideelle komplementære ferdigheter som be
 Høsten 2023 flyttet Julius von Forstner til **Oslo**, blant annet på grunn av sin store begeistring for landet og dets
 kultur.
 Dermed begynte han masterstudiet sitt i utøvende klaver med **professor Håvard Gimse** ved **Norges musikkhøgskole**.
-Samtidig fortsette han vokalstudiene ved UiT Norges arktiske universitet med **professorene Anne-Lise Sollied** og
+Samtidig fortsetter han vokalstudiene ved UiT Norges arktiske universitet med **professorene Anne-Lise Sollied** og
 **Carlo Allemano**. Til sesongen 2024/2025 har Julius blitt utvalgt til å delta i **Dronning Sonjas Operaakademiet**.
 
 Etter å ha fullført masterstudiet i klaver, skal han fra høsten 2025 begynne på operastudiet ved **Operahøgskolen i Oslo (KHiO)**. Han er allerede 
