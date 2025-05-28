@@ -13,7 +13,7 @@ Im Jahr 2022 absolvierte Julius von Forstner mit großer Begeisterung ein ERASMU
 arktischen Universität in Tromsø, Norwegen, bei **Prof. Sergej Osadchuk**.
 Weitere wichtige Impulse erhielt er außerdem von Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 bei der Mattheiser Sommerakademie, dem Nordland-Kammermusikkurs sowie von **Prof. Christopher Park** während der
-Voksenåsen-Sommerakademie. Andere wichtige Meisterkurse bei: David Gowland, Annette Weber, Anthony Almeida and Toby Spence.
+Voksenåsen-Sommerakademie. Andere wichtige Meisterkurse bei: David Gowland, Annette Weber, Anthony Almeida und Toby Spence.
 
 Neben Kammermusik, Liedgestaltung und zeitgenössischer Musik begann mit dem Studium an der HfM Karlsruhe auch ein
 großes Interesse am klassischen Gesang. Im Jahre 2023 begann Julius von Forstner daher parallel zum Klavier ein
