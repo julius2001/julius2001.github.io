@@ -28,3 +28,6 @@ und die Kultur. An der **Norwegischen Musikhochschule** begann er seinen Master 
 Julius von Forstner in die norwegische **Opernakademie**
 unter Schirmherrschaft der Königin Sonja
 aufgenommen.
+
+Nach Abschluss seines Masterstudiums in Klavier wird er ab Herbst 2025 ein Opernstudium an der **Opera Academy in Oslo (KHiO)** beginnen. Er ist bereits 
+ein gefragter Musiker, der u.a. bei **'Festspillene i Bergen', 'Hardanger Musikkfest'** und im Edvard Grieg Museum als 'Pianist der Woche' auftritt.
