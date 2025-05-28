@@ -15,7 +15,9 @@ I 2022 fullførte Julius von Forstner med stor entusiasme et ERASMUS-utvekslings
 universitet i Tromsø med **professor Sergej Osadchuk**.
 Han fikk også viktige impulser fra Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 ved Mattheiser sommerakademi, Nordland kammermusikkurs og fra **professor Christopher Park** under
-Voksenåsen sommerakademi.
+Voksenåsen sommerakademi. Andre viktige mesterklasser med: David Gowland, Annette Weber, Anthony Almeida and Toby Spence.
+
+
 
 I tillegg til kammermusikk, romanseinterpretasjon og samtidsmusikk førte studiene ved Musikkhøgskolen i Karlsruhe
 også til en stor interesse i **klassisk sang**.
