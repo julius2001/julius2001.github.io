@@ -2,7 +2,7 @@
 {% responsive_image path: assets/img/welcome_25.jpeg %}
 Pianisten og bassbarytonen, født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
 barndommen.
-Først lærte han seg grunnleggende pianospill på egen hånd i tilleg til kirkekor, fiolin- og bratsjspill,
+Først lærte han seg grunnleggende pianospill på egen hånd i tillegg til kirkekor, fiolin- og bratsjspill,
 før han i alderen av 10 år begynte sin klaverutdannelse hos den irsk-tyske pianisten **Kevin McKenna**.
 Det var nettopp denne selvlærte tilnærmingen som ga ham en ekstremt naturlig og personlig relasjon til musikken
 fra første stund.
@@ -15,7 +15,7 @@ I 2022 fullførte Julius von Forstner med stor entusiasme et ERASMUS-utvekslings
 universitet i Tromsø med **professor Sergej Osadchuk**.
 Han fikk også viktige impulser fra Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 ved Mattheiser sommerakademi, Nordland kammermusikkurs og fra **professor Christopher Park** under
-Voksenåsen sommerakademi. Andre viktige mesterklasser med: David Gowland, Annette Weber, Anthony Almeida and Toby Spence.
+Voksenåsen sommerakademi. Andre viktige mesterklasser med: David Gowland, Annette Weber, Anthony Almeida og Toby Spence.
 
 
 
