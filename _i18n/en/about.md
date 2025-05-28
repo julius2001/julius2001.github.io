@@ -16,7 +16,7 @@ In 2022, Julius von Forstner enthusiastically completed an ERASMUS exchange seme
 Tromsø, Norway, with **Prof. Sergej Osadchuk**.
 He also received further important impulses from Heike Allardt, Andrej Jussow, Vadim Palmov, Matti Hirvonen, Anne Sophie von Otter,
 at the Mattheiser Summer Academy, the Nordland Chamber Music Course and from **Prof. Christopher Park** during the
-Voksenåsen Summer Academy.
+Voksenåsen Summer Academy. Other important masterclasses included: David Gowland, Annette Weber, Anthony Almeida and Toby Spence.
 
 In addition to chamber music, song interpretation and contemporary music, his studies at the Karlsruhe University of
 Music also sparked a great interest in classical singing.
@@ -29,3 +29,6 @@ In the fall of 2023, Julius von Forstner moved to **Oslo, Norway**, also because
 and its culture. At the **Norwegian Academy of Music**, he began his master studies in performing arts with
 **Prof. Håvard Gimse**. At the same time, he is continuing his vocal studies at the Arctic University in Tromsø with
 **Prof. Anne-Lise Sollied** and **Prof. Carlo Allemano**. For the season 2024/2025 Julius von Forstner got invited to the **Queen Sonja Opera Academy**.
+
+After graduating from his master studies in piano, he will start a study in opera at the **Opera Academy in Oslo (KHiO)** from fall 2025. He is already 
+a sought-after musician performing at e.g. **'Festspillene i Bergen', 'Hardanger Musikkfest'** and Edvard Grieg museum as 'Pianist of the Week'.
