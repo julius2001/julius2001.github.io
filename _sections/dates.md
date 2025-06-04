@@ -43,6 +43,10 @@ Sangeksamen
 **05 June 2025, 8 PM – Lindemansalen NMH, Oslo, Norway**\\
 [Piano master degree exam concert](https://nmh.no/konserter/into-the-unknown)
 
+**16 June 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
+[Lied Concert with mezzo-soprano Julika Hing](https://www.facebook.com/share/1AWr44PTN5/)
+
+
 **1 - 6 July 2025 – Troldhaugen, Norway**\\
 Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
 
