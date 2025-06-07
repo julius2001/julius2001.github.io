@@ -50,6 +50,9 @@ Sangeksamen
 **1 - 6 July 2025 – Troldhaugen, Norway**\\
 Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
 
+**21 August 2025, 7 PM – Akershus Slottskirke, Oslo, Norway**\\
+Concert at the Oslo Kammermusikkfestivalen
+
 **27 - 31 August 2025 – Hardanger, Norway**\\
 Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
 
