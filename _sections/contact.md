@@ -12,8 +12,8 @@ order: 6
 - ### {% t contact.email %}
   [{{ site.email }}](mailto:{{ site.email }})
 - ### {% t contact.address %}
-  Blindernveien 6B H1209 \
-  0361 Oslo \
+  Toppåsveien 8A \
+  1262 Oslo \
   {% t contact.country %}
 - ### {% t contact.orgnumb %}
   935024692
