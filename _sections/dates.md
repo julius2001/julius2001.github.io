@@ -50,11 +50,23 @@ Sangeksamen
 **1 - 6 July 2025 – Troldhaugen, Norway**\\
 Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
 
+**6 - 8 August 2025 – Venabu Fjellhotell, Norway**\\
+Evening concerts at Venabu Fjellhotell
+
 **21 August 2025, 7 PM – Akershus Slottskirke, Oslo, Norway**\\
 Concert at Oslo Kammermusikkfestivalen
 
 **27 - 31 August 2025 – Hardanger, Norway**\\
 Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
+
+**14 September 2025, 6 PM – Domschule, Schleswig, Germany**\\
+Lied Concert in preparation of International Vocal Competition in S'Hertogenbosch
+
+**25 - 28 September 2025 – S'Hertogenbosch, Netherlands**\\
+Participation in the Finals of International Vocal Competition in S'Hertogenbosch together with mezzo-soprano Julika Hing
+
+**25 October 2025, 6 PM – Grønland Boulebar, Oslo, Norway**\\
+Operapub
 
 <details markdown="block">
 <summary markdown="block">
