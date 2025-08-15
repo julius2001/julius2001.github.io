@@ -30,4 +30,4 @@ unter Schirmherrschaft der Königin Sonja
 aufgenommen.
 
 Nach Abschluss seines Masterstudiums in Klavier wird er ab Herbst 2025 ein Opernstudium an der **Opera Academy in Oslo (KHiO)** beginnen. Er ist bereits 
-ein gefragter Musiker, der u.a. bei **'Festspillene i Bergen', 'Hardanger Musikkfest'** und im Edvard Grieg Museum als 'Pianist der Woche' auftritt.
+ein gefragter Musiker, der u.a. bei **'Festspillene i Bergen', 'Hardanger Musikkfest', 'Oslo Kammermusikkfestival'** und im Edvard Grieg Museum als 'Pianist der Woche' auftritt.
