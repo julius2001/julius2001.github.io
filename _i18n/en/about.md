@@ -31,4 +31,4 @@ and its culture. At the **Norwegian Academy of Music**, he began his master stud
 **Prof. Anne-Lise Sollied** and **Prof. Carlo Allemano**. For the season 2024/2025 Julius von Forstner got invited to the **Queen Sonja Opera Academy**.
 
 After graduating from his master studies in piano, he will start a study in opera at the **Opera Academy in Oslo (KHiO)** from fall 2025. He is already 
-a sought-after musician performing at e.g. **'Festspillene i Bergen', 'Hardanger Musikkfest'** and Edvard Grieg museum as 'Pianist of the Week'.
+a sought-after musician performing at e.g. **'Festspillene i Bergen', 'Hardanger Musikkfest', 'Oslo Kammermusikkfestival'** and Edvard Grieg museum as 'Pianist of the Week'.
