@@ -7,46 +7,6 @@ order: 2
 ## {%t dates.title %}
 ### {%t dates.upcoming %}
 
-**26 January 2025, 3 PM – Levinsalen NMH, Oslo, Norway**\\
-[Closing concert of NMH pianists' concert tour](https://nmh.no/konserter/lyden-av-natur)
-
-**22 March 2025, 12 AM – Sagene Kirke, Oslo, Norway**\\
-Master Recital - Nostalgia through the times
-
-**27 March 2025, 6 PM – Levinsalen NMH, Oslo, Norway**\\
-[Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
-
-**10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
-[Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
-
-**25 April 2025, 7 PM – Rødbanken Festsal, Tromsø, Norway**\\
-Operakafé
-
-**30 April 2025, 6 PM – Nasjonalmuseet, Oslo, Norway**\\
-Galaconcert arranged by Queen Sonja singing competition
-
-**6 May 2025, 1 PM – Sagene Kirke, Oslo, Norway**\\
-Scriabin Sonatas at opening of Hollenbachfestivalen
-
-**8 May 2025, 6 PM – Sagene Kirke, Oslo, Norway**\\
-Chopin Nocturnes with NMH's pianists
-
-**10 May 2025, 4 PM – Sandvoldsalen, NMH, Oslo, Norway**\\
-[Chopin Nocturnes with NMH's pianists](https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
-
-**20 May 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
-Concert with the song interpretation class of Matti Hirvonen
-
-**28 May 2025, 1 PM – Musikkonservatoriet, Tromsø, Norway**\\
-Sangeksamen
-
-**05 June 2025, 8 PM – Lindemansalen NMH, Oslo, Norway**\\
-[Piano master degree exam concert](https://nmh.no/konserter/into-the-unknown)
-
-**16 June 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
-[Lied Concert with mezzo-soprano Julika Hing](https://www.facebook.com/share/1AWr44PTN5/)
-
-
 **1 - 6 July 2025 – Troldhaugen, Norway**\\
 Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
 
@@ -62,7 +22,7 @@ Multiple performances as pianist and singer during [Hardanger Musikkfest](https:
 **14 September 2025, 6 PM – Domschule, Schleswig, Germany**\\
 Lied Concert in preparation of International Vocal Competition in S'Hertogenbosch
 
-**25 - 28 September 2025 – S'Hertogenbosch, Netherlands**\\
+**27 - 28 September 2025 – S'Hertogenbosch, Netherlands**\\
 Participation in the Finals of International Vocal Competition in S'Hertogenbosch together with mezzo-soprano Julika Hing
 
 **25 October 2025, 6 PM – Grønland Boulebar, Oslo, Norway**\\
@@ -72,6 +32,46 @@ Operapub
 <summary markdown="block">
 **{% t dates.archive %}**
 </summary>
+
+
+**16 June 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
+[Lied Concert with mezzo-soprano Julika Hing](https://www.facebook.com/share/1AWr44PTN5/)
+
+**05 June 2025, 8 PM – Lindemansalen NMH, Oslo, Norway**\\
+[Piano master degree exam concert](https://nmh.no/konserter/into-the-unknown)
+
+**28 May 2025, 1 PM – Musikkonservatoriet, Tromsø, Norway**\\
+Sangeksamen
+
+**20 May 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
+Concert with the song interpretation class of Matti Hirvonen
+
+**10 May 2025, 4 PM – Sandvoldsalen, NMH, Oslo, Norway**\\
+[Chopin Nocturnes with NMH's pianists](https://nmh.no/en/concerts/nocturnes-og-polonaises-by-frederic-chopin)
+
+**8 May 2025, 6 PM – Sagene Kirke, Oslo, Norway**\\
+Chopin Nocturnes with NMH's pianists
+
+**6 May 2025, 1 PM – Sagene Kirke, Oslo, Norway**\\
+Scriabin Sonatas at opening of Hollenbachfestivalen
+
+**30 April 2025, 6 PM – Nasjonalmuseet, Oslo, Norway**\\
+Galaconcert arranged by Queen Sonja singing competition
+
+**25 April 2025, 7 PM – Rødbanken Festsal, Tromsø, Norway**\\
+Operakafé
+
+**10 April 2025, 7 PM – Levinsalen NMH, Oslo, Norway**\\
+[Grieg's Slåtter](https://nmh.no/konserter/griegs-slatter) – concert with Håvard Gimse's piano students at NMH
+
+**27 March 2025, 6 PM – Levinsalen NMH, Oslo, Norway**\\
+[Master Recital - Nostalgia through the times](https://nmh.no/konserter/nostalgi-gjennom-tiden)
+
+**22 March 2025, 12 AM – Sagene Kirke, Oslo, Norway**\\
+Master Recital - Nostalgia through the times
+
+**26 January 2025, 3 PM – Levinsalen NMH, Oslo, Norway**\\
+[Closing concert of NMH pianists' concert tour](https://nmh.no/konserter/lyden-av-natur)
 
 **06 August 2024 – Venabu Fjellhotell, Norway**\\
 solo piano recital
