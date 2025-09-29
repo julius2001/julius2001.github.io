@@ -5,7 +5,7 @@
             <ul>
                 {% assign sections = site.sections | sort: 'order' %}
                 {% for section in sections %}
-                <li><a href="#{{ section.name | split: '.' | first }}">{% t section.title %}</a></li>
+                <li><a href="#section-{{ section.name | split: '.' | first }}">{% t section.title %}</a></li>
                 {% endfor %}
             </ul>
         </nav>
