@@ -1,5 +1,5 @@
 ## Om meg
-{% responsive_image path: assets/img/welcome_25.jpeg %}
+{% responsive_image path: assets/img/welcome_opera.jpg %}
 Pianisten og bassbarytonen, født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
 barndommen.
 Først lærte han seg grunnleggende pianospill på egen hånd i tillegg til kirkekor, fiolin- og bratsjspill,
