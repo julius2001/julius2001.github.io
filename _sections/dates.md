@@ -28,6 +28,9 @@ Participation in the Finals of International Vocal Competition in S'Hertogenbosc
 **25 October 2025, 6 PM – Grønland Boulebar, Oslo, Norway**\\
 Operapub
 
+**21 December 2025, 6 PM – Domschule, Schleswig, Germany**\\
+Solo Recital
+
 <details markdown="block">
 <summary markdown="block">
 **{% t dates.archive %}**
