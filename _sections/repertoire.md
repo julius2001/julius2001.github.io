@@ -40,6 +40,7 @@ order: 5
 - 3 Intermezzi op. 117
 - 8 Klavierstücke op. 76
 - Rhapsodie op. 79 No. 2 g-Moll
+- Violin Sonata No. 2 A-Dur
 
 #### Chopin
 - Ballade op. 23 No. 1 g-Moll
@@ -61,6 +62,7 @@ order: 5
 
 #### Grieg
 - Concerto op. 16 a-moll
+- Lyrical Pieces (selected)
 
 #### Liszt
 - 3 Etudes de Concert S. 144 No. 1 & 3
@@ -104,6 +106,7 @@ order: 5
 
 #### Scriabin
 - Sonata No. 4
+- Sonata No. 9
 - Etude op. 8 No. 2
 
 #### Tchaikovsky
@@ -158,6 +161,7 @@ order: 5
 - Aria „La ci darem la mano”
 - Concert aria „Mentre ti lascio figlia“
 - Zauberflöte (Sarastro)
+- La finta giardiniera (Nardo)
 
 #### Mendelssohn
 - Elijah op. 70: Aria „Es ist genug”
@@ -177,6 +181,10 @@ order: 5
 #### Schumann
 - Dichterliebe op. 48
 
+#### Shostakovich
+- 4 Romances with texts by Pushkin op. 46
+- 4 Monologues with thexts by Pushkin op. 91
+
 #### Sibelius
 - “Come away, death” op.60 No. 1
 
@@ -185,6 +193,9 @@ order: 5
 
 #### Ralph Vaughan Williams
 - Songs of Travel
+
+#### Rachmaninov
+- Aria: Old Gypsy Song from 'Aleko'
 
 #### Verdi
 - from "Simon Boccanegra": Il lacerato spirito
