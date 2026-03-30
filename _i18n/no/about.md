@@ -1,6 +1,6 @@
 ## Om meg
 {% responsive_image path: assets/img/welcome_opera.jpg %}
-Pianisten og bassbarytonen, født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
+Pianisten og sanger, født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
 barndommen.
 Først lærte han seg grunnleggende pianospill på egen hånd i tillegg til kirkekor, fiolin- og bratsjspill,
 før han i alderen av 10 år begynte sin klaverutdannelse hos den irsk-tyske pianisten **Kevin McKenna**.
@@ -21,7 +21,7 @@ Voksenåsen sommerakademi. Andre viktige mesterklasser med: David Gowland, Annet
 
 I tillegg til kammermusikk, romanseinterpretasjon og samtidsmusikk førte studiene ved Musikkhøgskolen i Karlsruhe
 også til en stor interesse i **klassisk sang**.
-I 2023 begynte Julius von Forstner derfor å studere sang med **professor Holger Speck** som bassbaryton ved siden av
+I 2023 begynte Julius von Forstner derfor å studere sang med **professor Holger Speck** som bass ved siden av
 klaverstudiet, og han har allerede utviklet et bredt repertoar av **sanger, oratorie- og operaarier**.
 Kombinasjonen av piano og sang gir ham ideelle komplementære ferdigheter som beriker ham som musiker.
 
