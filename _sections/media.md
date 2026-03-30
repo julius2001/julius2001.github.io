@@ -9,7 +9,7 @@ order: 4
 
 <div class="row" markdown="block">
 <div class="col-6 col-12-medium" markdown="block">
-<iframe class="spotify-embed" src="https://open.spotify.com/embed/album/6bccmzL7XBpGXLSL8iX6tk?utm_source=generator" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/album/6RZWbz2BgzlDMyVkDaBPrh?utm_source=oembed" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/KeWBZR6UIGo?si=crtKfa5ySl-90AZT" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/5C2e38dGD8o?si=XY2HA8TeBlpLCMb5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/rrEW7uNsECo?si=Dj59i3-kvH02oREa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
