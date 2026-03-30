@@ -1,6 +1,6 @@
 ## About me
 {% responsive_image path: assets/img/welcome_opera.jpg %}
-The pianist and bass-baritone, born in 2001 in Schleswig, Northern Germany, began his varied musical education 
+The pianist and bass, born in 2001 in Schleswig, Northern Germany, began his varied musical education 
 in his early childhood. After initially learning the basics of the piano on his own as well as singing in church choirs
 and playing the violin and viola, he began his piano education at the age of 10 with the Irish-German pianist
 **Kevin McKenna**.
@@ -21,7 +21,7 @@ Voksenåsen Summer Academy. Other important masterclasses included: David Gowlan
 In addition to chamber music, song interpretation and contemporary music, his studies at the Karlsruhe University of
 Music also sparked a great interest in classical singing.
 In 2023, Julius von Forstner therefore began his **classical singing studies** with **Prof. Holger Speck** as a
-bass-baritone and has already built up a broad repertoire of **songs as well as oratorio and opera arias**.
+bass and has already built up a broad repertoire of **songs as well as oratorio and opera arias**.
 The combination of piano and singing offers him ideally complementary skills that greatly enrich him
 as a musician.
 
