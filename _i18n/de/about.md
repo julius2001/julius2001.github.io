@@ -17,7 +17,7 @@ Voksenåsen-Sommerakademie. Andere wichtige Meisterkurse bei: David Gowland, Ann
 
 Neben Kammermusik, Liedgestaltung und zeitgenössischer Musik begann mit dem Studium an der HfM Karlsruhe auch ein
 großes Interesse am klassischen Gesang. Im Jahre 2023 begann Julius von Forstner daher parallel zum Klavier ein
-**Gesangsstudium** bei **Prof. Holger Speck** in der Stimmlage Bass-Bariton und hat sich bereits ein breites Repertoire
+**Gesangsstudium** bei **Prof. Holger Speck** in der Stimmlage Bass und hat sich bereits ein breites Repertoire
 an **Liedern sowie Oratorien- und Opernarien** erarbeitet. Die Kombination aus Klavier und Gesang bietet ihm sich ideal
 ergänzende Fähigkeiten, die ihn als Musiker stark bereichern.
 
