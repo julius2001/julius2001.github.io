@@ -1,6 +1,6 @@
 ## Über mich
 {% responsive_image path: assets/img/welcome_opera.jpg %}
-Der Pianist und Bass-Bariton, geboren 2001 in Schleswig, begann schon in seiner frühen Kindheit seine musikalische
+Der Pianist und Bass, geboren 2001 in Schleswig, begann schon in seiner frühen Kindheit seine musikalische
 Ausbildung in vielfältiger Weise. Zunächst durch selbstständiges Erlernen der Klaviergrundlagen dann über
 Kirchenchor, Geige und Bratschenspiel, begann er mit 10 Jahren seine Klavierausbildung bei dem irisch-deutschen
 Pianisten **Kevin McKenna**. Gerade der autodidaktische Ansatz ermöglichte ihm von Beginn an einen äußerst natürlichen
