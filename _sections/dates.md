@@ -31,6 +31,20 @@ Operapub
 **21 December 2025, 6 PM – Domschule, Schleswig, Germany**\\
 Solo Recital
 
+**30 January - 01 February 2026 – Norwegian Opera & Ballet, Oslo, Norway**\\
+Bass in the Opera Choir of Rameau's 'Les Indes Galantes' [Les Indes Galantes](https://khio.no/en/events/2250)
+
+**17 March 2026, 6:30 PM – Universitetets Aula, Oslo, Norway**\\
+Chamber choir concert at 'Fagerborgfestspillene'
+
+
+**21 & 22 May 2026, 6 PM – National Academy of the Arts, Oslo, Norway**\\
+Rodolfo in Bellini's 'La Sonnambula' and Capellio in Bellini's 'I Capuleti e i Montecchi' [AVGANG 2026](https://khio.no/events/2368)
+
+
+**13 June 2026, 3 PM – Gamle Raadhus Scene, Oslo, Norway**\\
+KHiO Summer Concert 
+
 <details markdown="block">
 <summary markdown="block">
 **{% t dates.archive %}**
