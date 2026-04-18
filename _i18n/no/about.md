@@ -31,5 +31,7 @@ Dermed begynte han masterstudiet sitt i utøvende klaver med **professor Håvard
 Samtidig fortsetter han vokalstudiene ved UiT Norges arktiske universitet med **professorene Anne-Lise Sollied** og
 **Carlo Allemano**. Til sesongen 2024/2025 har Julius blitt utvalgt til å delta i **Dronning Sonjas Operaakademiet**.
 
-Etter å ha fullført masterstudiet i klaver, skal han fra høsten 2025 begynne på operastudiet ved **Operahøgskolen i Oslo (KHiO)**. Han er allerede 
-en ettertraktet musiker som opptrer på bl.a. **Festspillene i Bergen, Hardanger Musikkfest,'Oslo Kammermusikkfestival'** og Edvard Grieg museum som "Ukens pianist".
+Etter å ha fullført masterstudiet i klaver, begynte han fra høsten 2025 på operastudiet ved **Operahøgskolen i Oslo (KHiO)**. Ved KHiO fikk han synge rollene Nardo (La Finta giardiniera), Rodolfo (La Sonnambula) og Capellio (I capuleti e i Montecchi).
+Han er allerede en ettertraktet musiker som opptrer på bl.a. **Festspillene i Bergen, Hardanger Musikkfest,'Oslo Kammermusikkfestival'** og Edvard Grieg museum som "Ukens pianist".
+I September 2025 sto han, sammen som Lied-Duo med mezzo-sopran Julika Hing, i finalen av **'International Vocal Competition'** i Den Bosch, Nederland, i kategorien 'Theatre in Song'.
+I sesongen 2026 skal Julius være en del av Nordens Unge Operakor med konserter i hele Norden.
