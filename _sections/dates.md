@@ -37,13 +37,20 @@ Bass in the Opera Choir of Rameau's 'Les Indes Galantes' [Les Indes Galantes](ht
 **17 March 2026, 6:30 PM – Universitetets Aula, Oslo, Norway**\\
 Chamber choir concert at 'Fagerborgfestspillene'
 
-
 **21 & 22 May 2026, 6 PM – National Academy of the Arts, Oslo, Norway**\\
 Rodolfo in Bellini's 'La Sonnambula' and Capellio in Bellini's 'I Capuleti e i Montecchi' [AVGANG 2026](https://khio.no/events/2368)
 
-
 **13 June 2026, 3 PM – Gamle Raadhus Scene, Oslo, Norway**\\
-KHiO Summer Concert 
+KHiO Summer Concert
+
+**3 - 7 August 2026 – Trollhättan, Sweden**\\
+concerts with Nordic Opera Choir at Nordic Song Festival
+
+**28 - 30 August 2026 – Herning, Denmark**\\
+concerts with Nordic Opera Choir at Herning Opera Festival
+
+**29 - 31 October 2026 – Reykjavik, Iceland**\\
+concerts with Nordic Opera Choir at Reykjavik Opera Days
 
 <details markdown="block">
 <summary markdown="block">
