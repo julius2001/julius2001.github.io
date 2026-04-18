@@ -32,5 +32,5 @@ aufgenommen.
 Nach Abschluss seines Masterstudiums in Klavier begann er im Herbst 2025 ein Opernstudium an der **Opera Academy in Oslo (KHiO)**. Hier sang er die Rollen Nardo (La Finta giardiniera), Rodolfo (La Sonnambula) sowie Capellio (I capuleti e i Montecchi).
 Er ist bereits ein gefragter Musiker, der u.a. bei **'Festspillene i Bergen', 'Hardanger Musikkfest', 'Oslo Kammermusikkfestival'** und im Edvard Grieg Museum als 'Pianist der Woche' auftritt.
 Im September 2025 stand er als Lied-Duo gemeinsam mit Mezzo-Sopranistin Julika Hing im Finale der **International Vocal Competition** in Den Bosch, Niederlande in der Kategorie Theatre in Song.
-Für die Saison 2026 ist Julius Teil des Nordic Opera Choirs mit Konzerten in ganz Skandinavien.
+Für die Saison 2026 ist Julius Teil des **Nordic Opera Choir** mit Konzerten in ganz Skandinavien.
 
