@@ -30,5 +30,8 @@ and its culture. At the **Norwegian Academy of Music**, he began his master stud
 **Prof. Håvard Gimse**. At the same time, he is continuing his vocal studies at the Arctic University in Tromsø with
 **Prof. Anne-Lise Sollied** and **Prof. Carlo Allemano**. For the season 2024/2025 Julius von Forstner got invited to the **Queen Sonja Opera Academy**.
 
-After graduating from his master studies in piano, he will start a study in opera at the **Opera Academy in Oslo (KHiO)** from fall 2025. He is already 
+After graduating from his master studies in piano, he started a study in opera at the **Opera Academy in Oslo (KHiO)** from fall 2025.
+Here he got to sing the roles Nardo (La Finta giardiniera), Rodolfo (La Sonnambula) as well as Capellio (I capuleti e i Montecchi). He is already 
 a sought-after musician performing at e.g. **'Festspillene i Bergen', 'Hardanger Musikkfest', 'Oslo Kammermusikkfestival'** and Edvard Grieg museum as 'Pianist of the Week'.
+In September 2025, as a Lied-Duo together with mezzo-soprano Julika Hing, he stood in the Final of the **International Vocal Competition** in Den Bosch, Netherlands, in the category 'Theatre in Song'.
+For the season 2026, Julius will be part of the **'Nordic Opera Choir'** with concerts all over Scandinavia.
