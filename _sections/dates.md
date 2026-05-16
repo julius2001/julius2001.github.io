@@ -7,29 +7,6 @@ order: 2
 ## {%t dates.title %}
 ### {%t dates.upcoming %}
 
-**1 - 6 July 2025 – Troldhaugen, Norway**\\
-Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
-
-**6 - 8 August 2025 – Venabu Fjellhotell, Norway**\\
-Evening concerts at Venabu Fjellhotell
-
-**21 August 2025, 7 PM – Akershus Slottskirke, Oslo, Norway**\\
-Concert at Oslo Kammermusikkfestivalen
-
-**27 - 31 August 2025 – Hardanger, Norway**\\
-Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
-
-**14 September 2025, 6 PM – Domschule, Schleswig, Germany**\\
-Lied Concert in preparation of International Vocal Competition in S'Hertogenbosch
-
-**27 - 28 September 2025 – S'Hertogenbosch, Netherlands**\\
-Participation in the Finals of International Vocal Competition in S'Hertogenbosch together with mezzo-soprano Julika Hing
-
-**25 October 2025, 6 PM – Grønland Boulebar, Oslo, Norway**\\
-Operapub
-
-**21 December 2025, 6 PM – Domschule, Schleswig, Germany**\\
-Solo Recital
 
 **30 January - 01 February 2026 – Norwegian Opera & Ballet, Oslo, Norway**\\
 Bass in the Opera Choir of Rameau's 'Les Indes Galantes' [Les Indes Galantes](https://khio.no/en/events/2250)
@@ -41,7 +18,13 @@ Chamber choir concert at 'Fagerborgfestspillene'
 Rodolfo in Bellini's 'La Sonnambula' and Capellio in Bellini's 'I Capuleti e i Montecchi' [AVGANG 2026](https://khio.no/events/2368)
 
 **13 June 2026, 3 PM – Gamle Raadhus Scene, Oslo, Norway**\\
-KHiO Summer Concert
+KHiO Summer Concert [Ekstra Lørdagsopera](https://operatilfolket.no/konserter/ekstra-lordagsopera-5/)
+
+**20 June 2026, 3 PM – Gamle Raadhus Scene, Oslo, Norway**\\
+Lied-Concert with Tea Ban in cooperation with Oslo Pride [Ekstra Lørdagsopera](https://operatilfolket.no/konserter/ekstra-lordagsopera-der-hjertet-taler-fritt/)
+
+**30 July - 2 August 2026 – Venabu Fjellhotell, Norway**\\
+Evening concerts at Venabu Fjellhotell
 
 **3 - 7 August 2026 – Trollhättan, Sweden**\\
 concerts with Nordic Opera Choir at Nordic Song Festival
@@ -57,6 +40,30 @@ concerts with Nordic Opera Choir at Reykjavik Opera Days
 **{% t dates.archive %}**
 </summary>
 
+**21 December 2025, 6 PM – Domschule, Schleswig, Germany**\\
+Solo Recital
+
+**25 October 2025, 6 PM – Grønland Boulebar, Oslo, Norway**\\
+Operapub
+
+**27 - 28 September 2025 – S'Hertogenbosch, Netherlands**\\
+Participation in the Finals of International Vocal Competition in S'Hertogenbosch together with mezzo-soprano Julika Hing
+
+**14 September 2025, 6 PM – Domschule, Schleswig, Germany**\\
+Lied Concert in preparation of International Vocal Competition in S'Hertogenbosch
+
+**27 - 31 August 2025 – Hardanger, Norway**\\
+Multiple performances as pianist and singer during [Hardanger Musikkfest](https://www.hardangermusikkfest.no/)
+
+**21 August 2025, 7 PM – Akershus Slottskirke, Oslo, Norway**\\
+Concert at Oslo Kammermusikkfestivalen
+
+**6 - 8 August 2025 – Venabu Fjellhotell, Norway**\\
+Evening concerts at Venabu Fjellhotell
+
+
+**1 - 6 July 2025 – Troldhaugen, Norway**\\
+Pianist of the week at Edvard Grieg Museum Troldhaugen (Bergen)
 
 **16 June 2025, 6 PM – Steinway Piano Gallery, Oslo, Norway**\\
 [Lied Concert with mezzo-soprano Julika Hing](https://www.facebook.com/share/1AWr44PTN5/)
