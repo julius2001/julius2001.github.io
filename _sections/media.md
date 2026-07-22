@@ -16,7 +16,7 @@ order: 4
 </div>
 <div class="col-6 col-12-medium" markdown="block">
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4BZi4gclu42nza3uHdnRe9?utm_source=generator" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe class="youtube-embed" src="https://www.youtube.com/embed/Uv1ylqkeu9X2WT5lps" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe class="youtube-embed" src="https://www.youtube.com/embed/1wfUyhxtcBM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/-AMETpBHWDc?si=_vIWZnw5x_07GGpB" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/3ivNTC4SlxU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 <iframe class="youtube-embed" src="https://www.youtube.com/embed/k4-aav_7j94?si=cXpeNutY7X1c1J3E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
