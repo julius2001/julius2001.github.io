@@ -1,0 +1,60 @@
+///
+/// Custom: full-bleed image banner between sections
+///
+
+	.banner-image {
+		position: relative;
+		overflow: hidden;
+		height: 70vh;
+		min-height: 420px;
+		max-height: 780px;
+
+		@include breakpoint('<=medium') {
+			height: 50vh;
+			min-height: 320px;
+		}
+
+		@include breakpoint('<=small') {
+			height: 40vh;
+			min-height: 260px;
+		}
+
+		// thin gradient accent line, echoes the h1.major underline
+		&:after {
+			@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 0.2em;
+		}
+
+		> img.background {
+			object-position: center center;
+		}
+
+		&.banner-piano > img.background {
+			object-position: center 35%;
+		}
+
+		&.banner-opera > img.background {
+			object-position: center 20%;
+		}
+
+		.banner-credit {
+			position: absolute;
+			right: 1em;
+			bottom: 0.6em;
+			z-index: 1;
+			color: rgba(255,255,255,0.75);
+			font-size: 0.7em;
+			letter-spacing: 0.02em;
+			text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+
+			@include breakpoint('<=small') {
+				font-size: 0.65em;
+				right: 0.75em;
+			}
+		}
+	}
