@@ -58,7 +58,8 @@
 		color: _palette(fg-bold);
 		font-family: _font(family-heading);
 		font-weight: _font(weight-bold);
-		letter-spacing: 0.01em;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
 		line-height: 1.4;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
 
@@ -70,7 +71,6 @@
 
 	h1 {
 		font-size: 3.1em;
-		font-style: italic;
 
 		&.major {
 			margin: 0 0 (_size(element-margin) * 0.65) 0;
