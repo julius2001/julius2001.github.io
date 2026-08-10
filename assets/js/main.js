@@ -187,4 +187,70 @@
 				}
 			});
 
+	// Banners.
+		$('.banner-image')
+			.scrollex({
+				mode: 'middle',
+				top: '-10vh',
+				bottom: '-10vh',
+				initialize: function() {
+
+					// Deactivate banner.
+						$(this).addClass('inactive');
+
+				},
+				enter: function() {
+
+					// Activate banner.
+						$(this).removeClass('inactive');
+
+				}
+			});
+
+	// Banner parallax.
+		var	$banners = $('.banner-image'),
+			ticking = false;
+
+		function updateBannerParallax() {
+
+			$banners.each(function() {
+
+				var	rect = this.getBoundingClientRect(),
+					windowHeight = window.innerHeight,
+					$img = $(this).find('> img.background');
+
+				// Only bother updating banners currently near the viewport.
+					if (rect.bottom < -windowHeight || rect.top > windowHeight * 2)
+						return;
+
+				// Progress of the banner through the viewport, roughly -1 to 1.
+					var progress = (rect.top - windowHeight) / (windowHeight + rect.height);
+
+				$img.css('transform', 'translateY(' + (progress * 40) + 'px)');
+
+			});
+
+			ticking = false;
+
+		}
+
+		if (!breakpoints.active('<=small')) {
+
+			$(window)
+				.on('scroll', function() {
+
+					if (!ticking) {
+
+						window.requestAnimationFrame(updateBannerParallax);
+						ticking = true;
+
+					}
+
+				})
+				.on('load', updateBannerParallax);
+
+			updateBannerParallax();
+
+		}
+
 })(jQuery);
