@@ -29,6 +29,9 @@ Evening concerts at Venabu Fjellhotell
 **3 - 7 August 2026 – Trollhättan, Sweden**\\
 concerts with Nordic Opera Choir at Nordic Song Festival
 
+**22 August 2026, 7 PM – Margaretakyrkan, Oslo, Norway**\\
+Concert with Solistkoret Ung (Norwegian Soloists Choir) with conductor Yuval Weinberg [Solistkoret Ung](https://solistkoret.no/konserter/solistkoret-ung-og-dirigent-yuval-weinberg/)
+
 **28 - 30 August 2026 – Herning, Denmark**\\
 concerts with Nordic Opera Choir at Herning Opera Festival
 
