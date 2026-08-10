@@ -37,7 +37,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(fg-bold);
+			color: _palette(accent1);
 		}
 	}
 
@@ -56,8 +56,10 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
+		font-family: _font(family-heading);
 		font-weight: _font(weight-bold);
-		line-height: 1.5;
+		letter-spacing: 0.01em;
+		line-height: 1.4;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
 
 		a {
@@ -67,7 +69,8 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 3.1em;
+		font-style: italic;
 
 		&.major {
 			margin: 0 0 (_size(element-margin) * 0.65) 0;
