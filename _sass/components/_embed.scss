@@ -9,6 +9,12 @@
   @extend %embed;
   max-height: 315px;
   aspect-ratio: 16/9;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5em 1.5em rgba(0,0,0,0.35);
+  }
 }
 
 .spotify-embed {
