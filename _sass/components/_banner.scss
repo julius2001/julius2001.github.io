@@ -9,6 +9,20 @@
 		min-height: 420px;
 		max-height: 780px;
 
+		// Fade-up on scroll, consistent with the other sections.
+		opacity: 1;
+		@include vendor('transform', 'translateY(0)');
+		@include vendor('transition', (
+			'opacity #{_duration(activation)} ease',
+			'transform #{_duration(activation)} ease'
+		));
+
+		&.inactive,
+		body.is-preload & {
+			opacity: 0;
+			@include vendor('transform', 'translateY(1em)');
+		}
+
 		@include breakpoint('<=medium') {
 			height: 50vh;
 			min-height: 320px;
@@ -32,6 +46,9 @@
 
 		> img.background {
 			object-position: center center;
+			height: 130%;
+			top: -15%;
+			will-change: transform;
 		}
 
 		&.banner-piano > img.background {
