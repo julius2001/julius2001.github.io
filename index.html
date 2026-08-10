@@ -18,4 +18,22 @@ layout: default
         {{ section.content }}
     {% unless section.spotlights %}</div>{% endunless %}
 </section>
+{% if section.name == 'news.md' %}
+<section class="banner-image banner-piano" aria-hidden="true">
+    {% responsive_image_block %}
+    path: assets/img/banner-piano.jpg
+    template: _includes/responsive-image-section-background.html
+    alt: Julius von Forstner am Flügel
+    {% endresponsive_image_block %}
+</section>
+{% endif %}
+{% if section.name == 'about.md' %}
+<section class="banner-image banner-opera" aria-hidden="true">
+    {% responsive_image_block %}
+    path: assets/img/banner-opera.jpg
+    template: _includes/responsive-image-section-background.html
+    alt: Julius von Forstner auf der Opernbühne
+    {% endresponsive_image_block %}
+</section>
+{% endif %}
 {% endfor %}
