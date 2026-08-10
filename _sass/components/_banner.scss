@@ -50,6 +50,10 @@
 
 		&.banner-piano > img.background {
 			object-position: center 35%;
+
+			@include breakpoint('<=medium') {
+				object-position: left 35%;
+			}
 		}
 
 		&.banner-opera > img.background {
