@@ -1,7 +1,5 @@
 ---
 title: media.title
-styles:
-  - style1
 order: 4
 ---
 
