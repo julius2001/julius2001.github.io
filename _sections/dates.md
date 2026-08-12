@@ -35,6 +35,10 @@ Concert with Solistkoret Ung (Norwegian Soloists Choir) with conductor Yuval Wei
 **28 - 30 August 2026 – Herning, Denmark**\\
 concerts with Nordic Opera Choir at Herning Opera Festival
 
+**17 October 2026, 7 PM – Grønland Boulebar, Oslo, Norway**\\
+Operapub with Mezzo-Soprano Tea Ban and Tenor Jonathan Bjønseth [Opera til folket](https://operatilfolket.no/konserter/operapub-pa-gronland-boulebar-97/)
+
+
 **29 - 31 October 2026 – Reykjavik, Iceland**\\
 concerts with Nordic Opera Choir at Reykjavik Opera Days
 
