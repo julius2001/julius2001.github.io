@@ -78,7 +78,7 @@
 			padding-bottom: 0.35em;
 
 			&:after {
-				@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+				@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent1-light)})');
 				@include vendor('transition', 'max-width #{_duration(transition)} ease');
 				border-radius: 0.2em;
 				bottom: 0;
