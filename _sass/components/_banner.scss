@@ -35,7 +35,7 @@
 
 		// thin gradient accent line, echoes the h1.major underline
 		&:after {
-			@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+			@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent1-light)})');
 			content: '';
 			position: absolute;
 			left: 0;

@@ -44,30 +44,7 @@
 
 			&:before {
 				font-size: 1.25em;
-
-				.wrapper.style1 & {
-					color: _palette(accent1);
-				}
-
-				.wrapper.style1-alt & {
-					color: _palette(accent1-alt);
-				}
-
-				.wrapper.style2 & {
-					color: _palette(accent2);
-				}
-
-				.wrapper.style2-alt & {
-					color: _palette(accent2-alt);
-				}
-
-				.wrapper.style3 & {
-					color: _palette(accent3);
-				}
-
-				.wrapper.style3-alt & {
-					color: _palette(accent3-alt);
-				}
+				color: _palette(accent1);
 			}
 		}
 	}

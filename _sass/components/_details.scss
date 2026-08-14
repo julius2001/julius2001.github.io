@@ -44,9 +44,7 @@
       }
     }
 
+    .wrapper.style1 details,
     .wrapper.style2 details {
-      background-color: _palette(accent2-alt);
-    }
-    .wrapper.style1 details {
       background-color: _palette(accent1-alt);
     }
