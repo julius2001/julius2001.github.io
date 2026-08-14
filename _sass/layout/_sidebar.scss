@@ -96,7 +96,7 @@
 				}
 
 				&:after {
-					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent1-light)})');
 					@include vendor('transition', 'max-width #{_duration(transition)} ease');
 					max-width: 0;
 				}
@@ -188,7 +188,7 @@
 
 					&:after {
 						background-image: none;
-						background-color: _palette(accent3);
+						background-color: _palette(accent1);
 					}
 				}
 			}
