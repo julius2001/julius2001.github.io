@@ -43,6 +43,24 @@
 					position: absolute;
 					top: 0;
 					width: 100%;
+					z-index: 1;
+				}
+
+				// Credited thumbnails render the <img> as a real element (the
+				// JS skips the background-image conversion), so size the box to
+				// the image instead of stretching it into a tall letterboxed
+				// column. Keeps the credit on the photo with no cropping.
+				&.has-credit {
+					align-self: center;
+					background-image: none;
+					height: auto;
+
+					img {
+						position: relative;
+						width: 100%;
+						height: auto;
+						z-index: 0;
+					}
 				}
 
 			}
@@ -54,7 +72,7 @@
 				position: absolute;
 				right: 1em;
 				bottom: 1em;
-				z-index: 1;
+				z-index: 2;
 				padding: 0.35em 0.6em;
 				border-radius: 0.4em;
 				background: rgba(0,0,0,0.35);
@@ -125,6 +143,10 @@
 				> .image {
 					width: 100%;
 					height: 35vh;
+
+					&.has-credit {
+						height: auto;
+					}
 				}
 
 				> .content {
@@ -145,6 +167,11 @@
 				> .image {
 					height: 35vh;
 					min-height: 15em;
+
+					&.has-credit {
+						height: auto;
+						min-height: 0;
+					}
 				}
 
 				> .content {

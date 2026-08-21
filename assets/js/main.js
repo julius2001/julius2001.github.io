@@ -155,15 +155,15 @@
 					$img = $image.find('img'),
 					x;
 
-				// Assign image.
+				// Render credited thumbnails as real <img> elements so the
+				// box sizes to the image (no background-image letterbox gap
+				// that would leave the credit floating off the photo).
+				if ($image.find('.image-credit').length === 0) {
 					$image.css('background-image', 'url(' + $img.attr('src') + ')');
-
-				// Set background position.
 					if (x = $img.data('position'))
 						$image.css('background-position', x);
-
-				// Hide <img>.
 					$img.hide();
+				}
 
 			});
 
