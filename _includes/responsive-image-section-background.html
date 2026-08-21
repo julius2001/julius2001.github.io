@@ -9,7 +9,20 @@
 /{{ i.webp_path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
 {%- endfor -%}
 {%- endcapture -%}
+{%- comment -%}
+The fullscreen intro uses contain-scaling, so on tall mobile screens the browser
+must render the image wider than the viewport (up to ~1.5x for a 3:2 landscape
+source) and then crops it. The default 100vw size budget therefore picks a
+variant that gets upscaled and looks blurry. Doubling the budget makes phones
+with 2x-3x displays fetch a large-enough variant. Banner strips are
+cover-scaled, not cropped, and keep 100vw.
+{%- endcomment -%}
+{%- if largest.path contains 'welcome_opera' -%}
+    {%- assign sizes = '200vw' -%}
+{%- else -%}
+    {%- assign sizes = '100vw' -%}
+{%- endif -%}
 <picture class="background">
-    <source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}">
-    <img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" loading="lazy">
+    <source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}" sizes="{{ sizes }}">
+    <img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="{{ sizes }}" loading="lazy">
 </picture>
