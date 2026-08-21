@@ -17,19 +17,23 @@
 				min-height: 0;
 			}
 
+			// News thumbnails render as real <img> elements sized to the
+			// image itself: no cropping, no background-image letterbox gap.
 			> .image {
-				background-position: center center;
-				background-size: cover;
-				background-repeat: no-repeat;
+				align-self: center;
 				border-radius: 0;
 				display: block;
+				height: auto;
 				position: relative;
 				width: 25em;
 
 				img {
 					border-radius: 0;
 					display: block;
+					height: auto;
+					position: relative;
 					width: 100%;
+					z-index: 0;
 				}
 
 				&:before {
@@ -44,23 +48,6 @@
 					top: 0;
 					width: 100%;
 					z-index: 1;
-				}
-
-				// Credited thumbnails render the <img> as a real element (the
-				// JS skips the background-image conversion), so size the box to
-				// the image instead of stretching it into a tall letterboxed
-				// column. Keeps the credit on the photo with no cropping.
-				&.has-credit {
-					align-self: center;
-					background-image: none;
-					height: auto;
-
-					img {
-						position: relative;
-						width: 100%;
-						height: auto;
-						z-index: 0;
-					}
 				}
 
 			}
@@ -142,11 +129,7 @@
 
 				> .image {
 					width: 100%;
-					height: 35vh;
-
-					&.has-credit {
-						height: auto;
-					}
+					height: auto;
 				}
 
 				> .content {
@@ -165,13 +148,7 @@
 
 			@include breakpoint('<=small') {
 				> .image {
-					height: 35vh;
-					min-height: 15em;
-
-					&.has-credit {
-						height: auto;
-						min-height: 0;
-					}
+					height: auto;
 				}
 
 				> .content {

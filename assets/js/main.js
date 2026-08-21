@@ -147,24 +147,6 @@
 						$(this).removeClass('inactive');
 
 				}
-			})
-			.each(function() {
-
-				var	$this = $(this),
-					$image = $this.find('.image'),
-					$img = $image.find('img'),
-					x;
-
-				// Render credited thumbnails as real <img> elements so the
-				// box sizes to the image (no background-image letterbox gap
-				// that would leave the credit floating off the photo).
-				if ($image.find('.image-credit').length === 0) {
-					$image.css('background-image', 'url(' + $img.attr('src') + ')');
-					if (x = $img.data('position'))
-						$image.css('background-position', x);
-					$img.hide();
-				}
-
 			});
 
 	// Features.
