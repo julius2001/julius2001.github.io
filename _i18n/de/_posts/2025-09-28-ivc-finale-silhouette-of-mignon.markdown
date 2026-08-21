@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Finale beim IVC 's-Hertogenbosch mit \"Silhouette of Mignon\""
+image: ivc-silhouette.jpg
+image_link: https://youtu.be/TiGOV4b0yUg?is=5F4aOCrgs2DlJlLf
 ---
 
 Ich freue mich sehr, berichten zu können, dass ich gemeinsam mit der Mezzosopranistin Julika Hing das Finale der
