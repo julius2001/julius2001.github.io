@@ -47,25 +47,21 @@
 
 			}
 
-			// Photo credit sits at the bottom-right of the image column.
-			> .image-credit {
+			// Photo credit sits at the bottom-right of the image
+			// column, inside .image so it tracks the container on both
+			// desktop (25em side column) and mobile.
+			.image-credit {
 				position: absolute;
-				left: calc(25em - 1em);
-				bottom: 0.6em;
-				transform: translateX(-100%);
+				right: 1em;
+				bottom: 1em;
 				z-index: 1;
-				color: rgba(255,255,255,0.75);
+				padding: 0.35em 0.6em;
+				border-radius: 0.4em;
+				background: rgba(0,0,0,0.35);
+				color: rgba(255,255,255,0.85);
 				font-size: 0.7em;
 				letter-spacing: 0.02em;
 				text-shadow: 0 1px 4px rgba(0,0,0,0.6);
-
-				@include breakpoint('<=medium') {
-					left: auto;
-					right: 1em;
-					bottom: auto;
-					top: calc(35vh - 1.5em);
-					transform: none;
-				}
 
 				@include breakpoint('<=small') {
 					font-size: 0.65em;
