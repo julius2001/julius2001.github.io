@@ -12,6 +12,8 @@ gem "jekyll", "~> 4.3.3"
 gem "public_suffix", "< 7.0"
 # google-protobuf 4.36+ requires Ruby >= 3.2
 gem "google-protobuf", "< 4.36"
+# sass-embedded 1.103+ requires Ruby >= 3.2
+gem "sass-embedded", "< 1.103"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
