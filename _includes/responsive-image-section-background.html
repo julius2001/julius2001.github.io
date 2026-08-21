@@ -4,4 +4,12 @@
 /{{ i.path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
 {%- endfor -%}
 {%- endcapture -%}
-<img class="background" src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" loading="lazy">
+{%- capture webp_srcset -%}
+{%- for i in resized -%}
+/{{ i.webp_path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
+{%- endfor -%}
+{%- endcapture -%}
+<picture class="background">
+    <source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}">
+    <img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" loading="lazy">
+</picture>

@@ -11,6 +11,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			min-height: 22.5em;
+			position: relative;
 
 			body.is-ie & {
 				min-height: 0;
@@ -42,6 +43,32 @@
 					position: absolute;
 					top: 0;
 					width: 100%;
+				}
+
+			}
+
+			// Photo credit sits at the bottom-right of the image column.
+			> .image-credit {
+				position: absolute;
+				left: calc(25em - 1em);
+				bottom: 0.6em;
+				transform: translateX(-100%);
+				z-index: 1;
+				color: rgba(255,255,255,0.75);
+				font-size: 0.7em;
+				letter-spacing: 0.02em;
+				text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+
+				@include breakpoint('<=medium') {
+					left: auto;
+					right: 1em;
+					bottom: auto;
+					top: calc(35vh - 1.5em);
+					transform: none;
+				}
+
+				@include breakpoint('<=small') {
+					font-size: 0.65em;
 				}
 			}
 

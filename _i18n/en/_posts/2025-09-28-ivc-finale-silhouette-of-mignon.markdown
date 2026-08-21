@@ -2,6 +2,7 @@
 layout: post
 title:  "Final at the IVC 's-Hertogenbosch with \"Silhouette of Mignon\""
 image: ivc-silhouette.jpg
+image_credit: Sarah Hickson
 image_link: https://youtu.be/TiGOV4b0yUg?is=5F4aOCrgs2DlJlLf
 ---
 

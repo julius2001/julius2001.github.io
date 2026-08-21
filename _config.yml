@@ -48,10 +48,12 @@ responsive_image:
     - width: 640
     - width: 1280
     - width: 2560
+    - width: 3840
 
 plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-responsive-image
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

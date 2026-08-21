@@ -9,13 +9,13 @@
                 {% endfor %}
             </ul>
         </nav>
-        <nav class="language-chooser">
+        <nav class="language-chooser" aria-label="{% t language %}">
             <ul>
                 {% for lang in site.languages %}
                 {% if lang == "en" %}
-                <li><a href="{{ page.url }}" {% if site.lang == lang %}class="active"{% endif %}>{{ lang }}</a></li>
+                <li><a href="{{ page.url }}" {% if site.lang == lang %}class="active" aria-current="true"{% endif %}>{{ lang | upcase }}</a></li>
                 {% else %}
-                <li><a href="/{{ lang }}{{ page.url }}" {% if site.lang == lang %}class="active"{% endif %}>{{ lang }}</a></li>
+                <li><a href="/{{ lang }}{{ page.url }}" {% if site.lang == lang %}class="active" aria-current="true"{% endif %}>{{ lang | upcase }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
