@@ -208,4 +208,87 @@
 				}
 			});
 
+	// Smooth expand/collapse for <details> (repertoire, dates).
+		var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+		document.querySelectorAll('details').forEach(function(details) {
+
+			var summary = details.querySelector('summary');
+
+			if (!summary)
+				return;
+
+			summary.addEventListener('click', function(event) {
+
+				// Instant toggle if the user prefers reduced motion.
+					if (reduceMotion)
+						return;
+
+				event.preventDefault();
+
+				if (details.classList.contains('is-animating'))
+					return;
+
+				if (!details.open)
+					openDetails(details, summary);
+				else
+					closeDetails(details, summary);
+
+			});
+
+		});
+
+		function openDetails(details, summary) {
+
+			details.open = true;
+			details.classList.add('is-animating');
+
+			var endHeight = details.scrollHeight;
+
+			details.style.height = summary.getBoundingClientRect().height + 'px';
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					details.style.transition = 'height 0.35s ease';
+					details.style.height = endHeight + 'px';
+				});
+			});
+
+			details.addEventListener('transitionend', function handler(event) {
+				if (event.propertyName !== 'height')
+					return;
+
+				details.style.height = '';
+				details.style.transition = '';
+				details.classList.remove('is-animating');
+				details.removeEventListener('transitionend', handler);
+			});
+
+		}
+
+		function closeDetails(details, summary) {
+
+			details.classList.add('is-animating');
+			details.style.height = details.scrollHeight + 'px';
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					details.style.transition = 'height 0.3s ease';
+					details.style.height = summary.getBoundingClientRect().height + 'px';
+				});
+			});
+
+			details.addEventListener('transitionend', function handler(event) {
+				if (event.propertyName !== 'height')
+					return;
+
+				details.open = false;
+				details.style.height = '';
+				details.style.transition = '';
+				details.classList.remove('is-animating');
+				details.removeEventListener('transitionend', handler);
+			});
+
+		}
+
 })(jQuery);
