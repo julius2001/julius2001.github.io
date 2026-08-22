@@ -17,6 +17,21 @@ Dir[File.expand_path('../_plugins/**/*.rb', __dir__)].sort.each { |plugin| requi
 
 Jekyll.logger.log_level = :error
 
+# Records the encoder settings every written image was given, so tests can assert
+# on them instead of on ImageMagick's output, which varies between versions.
+module RecordWriteQuality
+  WRITES = []
+
+  def write(path, &block)
+    super(path) do |info|
+      block&.call(info)
+      WRITES << { path: path.to_s, quality: info.quality }
+    end
+  end
+end
+
+Magick::Image.prepend(RecordWriteQuality)
+
 module PluginTestHelpers
   RESPONSIVE_IMAGE_DEFAULTS = Jekyll::ResponsiveImage::Config::DEFAULTS
 
@@ -41,9 +56,7 @@ module PluginTestHelpers
     @tmpdir ||= Dir.mktmpdir('responsive-image-test')
   end
 
-  # Writes a photo-like image so that lossy encoders produce meaningfully
-  # different file sizes for different quality settings.
-  def create_source_image(basename, width: 400, height: 240)
+  def create_source_image(basename, width: 100, height: 60)
     path = File.join(site_source, 'assets', basename)
     FileUtils.mkdir_p(File.dirname(path))
 
@@ -57,6 +70,12 @@ module PluginTestHelpers
   def resize(image_path, config_overrides = {})
     config = responsive_image_config(config_overrides)
     Jekyll::ResponsiveImage::ResizeHandler.new(image_path, config).resize_image
+  end
+
+  def webp_write_qualities
+    RecordWriteQuality::WRITES
+      .select { |write| write[:path].end_with?('.webp') }
+      .map { |write| write[:quality] }
   end
 
   def source_path(relative_path)
@@ -77,6 +96,10 @@ end
 
 class PluginTest < Minitest::Test
   include PluginTestHelpers
+
+  def setup
+    RecordWriteQuality::WRITES.clear
+  end
 
   def teardown
     FileUtils.remove_entry(@tmpdir) if @tmpdir && Dir.exist?(@tmpdir)
