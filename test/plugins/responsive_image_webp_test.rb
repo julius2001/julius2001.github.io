@@ -41,7 +41,7 @@ class ResponsiveImageWebpTest < PluginTest
     low_quality_size = webp_size_for_quality(5)
     high_quality_size = webp_size_for_quality(95)
 
-    assert_operator low_quality_size, :<, high_quality_size
+    assert_operator low_quality_size * 2, :<, high_quality_size
   end
 
   def test_does_not_regenerate_an_existing_webp_variant
@@ -67,10 +67,16 @@ class ResponsiveImageWebpTest < PluginTest
 
   private
 
+  # A wider variant keeps the size difference between quality settings well
+  # above encoder-version noise.
   def webp_size_for_quality(quality)
-    resize(create_source_image('photo.png'), 'webp_quality' => quality)
+    resize(
+      create_source_image('photo.png'),
+      'webp_quality' => quality,
+      'sizes' => [{ 'width' => 200 }]
+    )
 
-    File.size(source_path(RESIZED_WEBP))
+    File.size(source_path('assets/resized/photo-200x120.webp'))
   ensure
     FileUtils.remove_entry(@tmpdir) if @tmpdir
     @tmpdir = nil

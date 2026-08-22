@@ -41,13 +41,13 @@ module PluginTestHelpers
     @tmpdir ||= Dir.mktmpdir('responsive-image-test')
   end
 
-  # Writes a noisy image so that lossy encoders produce meaningfully different
-  # file sizes for different quality settings.
-  def create_source_image(basename, width: 100, height: 60)
+  # Writes a photo-like image so that lossy encoders produce meaningfully
+  # different file sizes for different quality settings.
+  def create_source_image(basename, width: 400, height: 240)
     path = File.join(site_source, 'assets', basename)
     FileUtils.mkdir_p(File.dirname(path))
 
-    image = Magick::Image.new(width, height).add_noise(Magick::UniformNoise)
+    image = Magick::Image.read('plasma:fractal') { |info| info.size = "#{width}x#{height}" }.first
     image.write(path)
     image.destroy!
 
