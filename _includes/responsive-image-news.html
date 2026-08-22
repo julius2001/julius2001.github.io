@@ -1,0 +1,5 @@
+{%- comment -%}
+News thumbnails sit in the 25em spotlight image column on desktop and span
+the full viewport width once the spotlight stacks (<=medium, 980px).
+{%- endcomment -%}
+{%- include responsive-picture.html resized=resized alt='' sizes='(max-width: 980px) 100vw, 25em' -%}

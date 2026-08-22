@@ -1,6 +1,9 @@
 # Generates a WebP variant for every image produced by jekyll-responsive-image
 # and exposes it to the templates as `webp_path`, so they can serve WebP via
 # <picture> with the original JPEG/PNG as fallback.
+require 'fileutils'
+require 'tempfile'
+
 module Jekyll
   module ResponsiveImage
     class ResizeHandler
@@ -18,20 +21,35 @@ module Jekyll
           webp_dest_filepath = File.expand_path(webp_path, @config[:site_dest])
 
           unless File.exist?(webp_source_filepath)
-            ensure_output_dir_exists!(webp_source_filepath)
-            Jekyll.logger.info "Generating #{webp_source_filepath}"
-            webp = Magick::Image::read(source_filepath).first
-            webp.write(webp_source_filepath) do |f|
-              # WebP compresses more efficiently than JPEG, so keep quality
-              # high (especially for fullscreen cover images).
-              f.quality = @config['webp_quality'] || 90
+            temporary_webp = nil
+            webp = nil
+            begin
+              ensure_output_dir_exists!(webp_source_filepath)
+              Jekyll.logger.info "Generating #{webp_source_filepath}"
+              temporary_webp = Tempfile.new(['.responsive-image-', '.webp'], File.dirname(webp_source_filepath))
+              temporary_webp.close
+              webp = Magick::Image::read(source_filepath).first
+              webp.write(temporary_webp.path) do |f|
+                # WebP compresses more efficiently than JPEG, so keep quality
+                # high (especially for fullscreen cover images).
+                f.quality = @config['webp_quality'] || 90
+              end
+              FileUtils.mv(temporary_webp.path, webp_source_filepath)
+            rescue StandardError => e
+              raise "Failed to generate WebP from #{source_filepath} to #{webp_source_filepath}: #{e.class}: #{e.message}"
+            ensure
+              webp.destroy! if webp
+              temporary_webp.unlink if temporary_webp
             end
-            webp.destroy!
           end
 
           unless File.exist?(webp_dest_filepath)
-            ensure_output_dir_exists!(webp_dest_filepath)
-            FileUtils.copy_file(webp_source_filepath, webp_dest_filepath)
+            begin
+              ensure_output_dir_exists!(webp_dest_filepath)
+              FileUtils.copy_file(webp_source_filepath, webp_dest_filepath)
+            rescue StandardError => e
+              raise "Failed to copy WebP from #{webp_source_filepath} to #{webp_dest_filepath} for #{source_filepath}: #{e.class}: #{e.message}"
+            end
           end
 
           image['webp_path'] = webp_path
