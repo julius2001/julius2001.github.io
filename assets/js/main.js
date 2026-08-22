@@ -49,6 +49,28 @@
 
 			var $sidebar_a = $sidebar.find("a[href^='#']");
 
+			// iOS Safari quirk: a :hover style on a link makes the first tap
+			// fire hover instead of click, so nav links need two taps to
+			// activate. On touch devices, navigate on the first touchend.
+			if ('ontouchstart' in window) {
+				$sidebar_a.on('touchend', function(event) {
+					var $this = $(this);
+					if (!$this.data('tapped')) {
+						event.preventDefault();
+						$this.data('tapped', true);
+						window.setTimeout(function() { $this.removeData('tapped'); }, 600);
+						var href = $this.attr('href');
+						if (href && href.charAt(0) === '#') {
+							var target = $(href);
+							if (target.length > 0)
+								$('body,html').stop().animate({ scrollTop: target.offset().top }, 600);
+						} else {
+							window.location.href = href;
+						}
+					}
+				});
+			}
+
 			$sidebar_a
 				.addClass('scrolly')
 				.on('click', function() {
