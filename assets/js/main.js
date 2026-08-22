@@ -8,7 +8,8 @@
 
 	var	$window = $(window),
 		$body = $('body'),
-		$sidebar = $('#sidebar');
+		$sidebar = $('#sidebar'),
+		$sidebar_a = $();
 
 	// Breakpoints.
 		breakpoints({
@@ -47,7 +48,7 @@
 	// Sidebar.
 		if ($sidebar.length > 0) {
 
-			var $sidebar_a = $sidebar.find("a[href^='#']");
+			$sidebar_a = $sidebar.find("a[href^='#']");
 
 			// iOS Safari quirk: a :hover style on a link makes the first tap
 			// fire hover instead of click, so nav links need two taps to
@@ -60,7 +61,8 @@
 					var $this = $(this);
 
 					// External link? Bail.
-						if ($this.attr('href').charAt(0) != '#')
+						var href = $this.attr('href');
+						if (!href || href.charAt(0) != '#')
 							return;
 
 					// Deactivate all links.
@@ -121,19 +123,30 @@
 	// jQuery scrolly plugin. Safari on iPad sometimes fails to dispatch
 	// delegated plugin-bound clicks on touch, leaving the nav unresponsive.
 	// A native listener with a fragment fallback makes it reliable.
-		$sidebar_a.each(function() {
-			this.addEventListener('click', function(event) {
-				event.preventDefault();
-				var target = document.querySelector(this.getAttribute('href'));
-				if (target) {
-					var offset = ($sidebar && $sidebar.length) ? $sidebar.height() : 0;
-					var top = target.getBoundingClientRect().top + window.scrollY - offset;
-					window.scrollTo({ top: top, behavior: 'smooth' });
-				} else {
-					window.location.hash = this.getAttribute('href');
-				}
+		if ($sidebar_a.length > 0) {
+			$sidebar_a.each(function() {
+				this.addEventListener('click', function(event) {
+					event.preventDefault();
+					var href = this.getAttribute('href'),
+						target = null;
+
+					try {
+						target = document.querySelector(href);
+					}
+					catch (e) {
+						// Invalid selectors use the hash-navigation fallback below.
+					}
+
+					if (target) {
+						var offset = ($sidebar && $sidebar.length) ? $sidebar.height() : 0;
+						var top = target.getBoundingClientRect().top + window.scrollY - offset;
+						window.scrollTo({ top: top, behavior: 'smooth' });
+					} else {
+						window.location.hash = href;
+					}
+				});
 			});
-		});
+		}
 
 	// Spotlights.
 		$('.spotlights > section')

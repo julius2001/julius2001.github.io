@@ -5,8 +5,13 @@
 {%- endfor -%}
 {%- endcapture -%}
 {%- capture webp_srcset -%}
+{%- assign webp_variant_count = 0 -%}
 {%- for i in resized -%}
-/{{ i.webp_path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
+    {%- if i.webp_path -%}
+        {%- assign webp_variant_count = webp_variant_count | plus: 1 -%}
+        {%- unless webp_variant_count == 1 -%},{%- endunless -%}
+        /{{ i.webp_path }} {{ i.width }}w
+    {%- endif -%}
 {%- endfor -%}
 {%- endcapture -%}
-<span class="image right" style="width: 30%"><picture><source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}" sizes="30vw"><img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="30vw" loading="lazy"></picture></span>
+<span class="image right" style="width: 30%"><picture>{% if webp_variant_count > 0 %}<source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}" sizes="30vw">{% endif %}<img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="30vw" loading="lazy"></picture></span>
