@@ -12,11 +12,7 @@
         <nav class="language-chooser" aria-label="{% t language %}">
             <ul>
                 {% for lang in site.languages %}
-                {% if lang == "en" %}
-                <li><a href="{{ page.url }}" {% if site.lang == lang %}class="active" aria-current="true"{% endif %}>{{ lang | upcase }}</a></li>
-                {% else %}
-                <li><a href="/{{ lang }}{{ page.url }}" {% if site.lang == lang %}class="active" aria-current="true"{% endif %}>{{ lang | upcase }}</a></li>
-                {% endif %}
+                <li><a href="{% include language-url.html lang=lang %}" {% if site.lang == lang %}class="active" aria-current="true"{% endif %}>{{ lang | upcase }}</a></li>
                 {% endfor %}
             </ul>
         </nav>

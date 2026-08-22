@@ -1,0 +1,16 @@
+{%- comment -%}
+Full-bleed decorative image strip between sections.
+
+Parameters:
+  image  - file name under assets/img; also names the modifier class
+           (banner-piano.jpg -> .banner-piano)
+  credit - optional photo credit
+{%- endcomment -%}
+{%- assign modifier = include.image | split: '.' | first -%}
+<section class="banner-image {{ modifier }}" aria-hidden="true">
+    {% responsive_image_block %}
+    path: assets/img/{{ include.image }}
+    template: _includes/responsive-image-section-background.html
+    {% endresponsive_image_block %}
+    {% if include.credit %}<span class="banner-credit">Photo: {{ include.credit }}</span>{% endif %}
+</section>

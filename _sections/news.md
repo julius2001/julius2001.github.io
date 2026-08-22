@@ -4,6 +4,7 @@ styles:
   - style1
 order: 1
 spotlights: true
+banner: banner-piano.jpg
 ---
 
 {% for post in site.posts %}

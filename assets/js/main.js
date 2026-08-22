@@ -10,6 +10,32 @@
 		$body = $('body'),
 		$sidebar = $('#sidebar');
 
+	// Fades elements in as they scroll into the middle of the viewport by
+	// toggling the .inactive class the stylesheet animates.
+	// @param target Selector or jQuery object.
+	// @param offset Scrollex top/bottom offset.
+	// @param onEnter Optional extra handler, called with the element as `this`.
+		var fadeOnScroll = function(target, offset, onEnter) {
+
+			$(target).scrollex({
+				mode: 'middle',
+				top: offset,
+				bottom: offset,
+				initialize: function() {
+					$(this).addClass('inactive');
+				},
+				enter: function() {
+
+					$(this).removeClass('inactive');
+
+					if (onEnter)
+						onEnter.call(this);
+
+				}
+			});
+
+		};
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -82,35 +108,21 @@
 						if ($section.length < 1)
 							return;
 
-					// Scrollex.
-						$section.scrollex({
-							mode: 'middle',
-							top: '-20vh',
-							bottom: '-20vh',
-							initialize: function() {
+					// Fade the section in, and sync the sidebar link's active state.
+						fadeOnScroll($section, '-20vh', function() {
 
-								// Deactivate section.
-									$section.addClass('inactive');
+							// No locked links? Deactivate all links and activate this section's one.
+								if ($sidebar_a.filter('.active-locked').length == 0) {
 
-							},
-							enter: function() {
+									$sidebar_a.removeClass('active');
+									$this.addClass('active');
 
-								// Activate section.
-									$section.removeClass('inactive');
+								}
 
-								// No locked links? Deactivate all links and activate this section's one.
-									if ($sidebar_a.filter('.active-locked').length == 0) {
+							// Otherwise, if this section's link is the one that's locked, unlock it.
+								else if ($this.hasClass('active-locked'))
+									$this.removeClass('active-locked');
 
-										$sidebar_a.removeClass('active');
-										$this.addClass('active');
-
-									}
-
-								// Otherwise, if this section's link is the one that's locked, unlock it.
-									else if ($this.hasClass('active-locked'))
-										$this.removeClass('active-locked');
-
-							}
 						});
 
 				});
@@ -136,63 +148,12 @@
 		});
 
 	// Spotlights.
-		$('.spotlights > section')
-			.scrollex({
-				mode: 'middle',
-				top: '-10vh',
-				bottom: '-10vh',
-				initialize: function() {
-
-					// Deactivate section.
-						$(this).addClass('inactive');
-
-				},
-				enter: function() {
-
-					// Activate section.
-						$(this).removeClass('inactive');
-
-				}
-			});
+		fadeOnScroll('.spotlights > section', '-10vh');
 
 	// Features.
-		$('.features')
-			.scrollex({
-				mode: 'middle',
-				top: '-20vh',
-				bottom: '-20vh',
-				initialize: function() {
-
-					// Deactivate section.
-						$(this).addClass('inactive');
-
-				},
-				enter: function() {
-
-					// Activate section.
-						$(this).removeClass('inactive');
-
-				}
-			});
+		fadeOnScroll('.features', '-20vh');
 
 	// Banners.
-		$('.banner-image')
-			.scrollex({
-				mode: 'middle',
-				top: '-10vh',
-				bottom: '-10vh',
-				initialize: function() {
-
-					// Deactivate banner.
-						$(this).addClass('inactive');
-
-				},
-				enter: function() {
-
-					// Activate banner.
-						$(this).removeClass('inactive');
-
-				}
-			});
+		fadeOnScroll('.banner-image', '-10vh');
 
 })(jQuery);

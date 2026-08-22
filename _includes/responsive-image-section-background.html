@@ -1,14 +1,4 @@
 {%- assign largest = resized | sort: 'width' | last -%}
-{%- capture srcset -%}
-{%- for i in resized -%}
-/{{ i.path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
-{%- endfor -%}
-{%- endcapture -%}
-{%- capture webp_srcset -%}
-{%- for i in resized -%}
-/{{ i.webp_path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
-{%- endfor -%}
-{%- endcapture -%}
 {%- comment -%}
 The fullscreen intro uses contain-scaling, so on tall mobile screens the browser
 must render the image wider than the viewport (up to ~1.5x for a 3:2 landscape
@@ -22,7 +12,4 @@ cover-scaled, not cropped, and keep 100vw.
 {%- else -%}
     {%- assign sizes = '100vw' -%}
 {%- endif -%}
-<picture class="background">
-    <source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}" sizes="{{ sizes }}">
-    <img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="{{ sizes }}" loading="lazy">
-</picture>
+{% include responsive-picture.html resized=resized alt=alt sizes=sizes picture_class='background' %}

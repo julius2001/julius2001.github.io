@@ -58,6 +58,41 @@
 
 }
 
+/// Styles an element in its faded-in (activated) state.
+/// @param {mixed} $offset Optional translateY offset used while faded out; pass
+///                        false for a plain opacity fade.
+@mixin fade-in($offset: false) {
+
+	@if $offset {
+		@include vendor('transform', 'translateY(0)');
+		@include vendor('transition', (
+			'opacity #{_duration(activation)} ease',
+			'transform #{_duration(activation)} ease'
+		));
+	}
+	@else {
+		@include vendor('transition', (
+			'opacity #{_duration(activation)} ease'
+		));
+	}
+
+	opacity: 1.0;
+
+}
+
+/// Styles an element in its faded-out (deactivated) state.
+/// @param {mixed} $offset Optional translateY offset; pass false for a plain
+///                        opacity fade.
+@mixin fade-out($offset: false) {
+
+	opacity: 0;
+
+	@if $offset {
+		@include vendor('transform', 'translateY(#{$offset})');
+	}
+
+}
+
 /// Encodes a SVG data URL so IE doesn't choke (via codepen.io/jakob-e/pen/YXXBrp).
 /// @param {string} $svg SVG data URL.
 /// @return {string} Encoded SVG data URL.

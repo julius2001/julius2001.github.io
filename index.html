@@ -18,21 +18,7 @@ layout: default
         {{ section.content }}
     {% unless section.spotlights %}</div>{% endunless %}
 </section>
-{% if section.name == 'news.md' %}
-<section class="banner-image banner-piano" aria-hidden="true">
-    {% responsive_image_block %}
-    path: assets/img/banner-piano.jpg
-    template: _includes/responsive-image-section-background.html
-    {% endresponsive_image_block %}
-</section>
-{% endif %}
-{% if section.name == 'about.md' %}
-<section class="banner-image banner-opera" aria-hidden="true">
-    {% responsive_image_block %}
-    path: assets/img/banner-opera.jpg
-    template: _includes/responsive-image-section-background.html
-    {% endresponsive_image_block %}
-    <span class="banner-credit">Photo: Erik Maxim Kronda</span>
-</section>
+{% if section.banner %}
+{% include banner-image.html image=section.banner credit=section.banner_credit %}
 {% endif %}
 {% endfor %}

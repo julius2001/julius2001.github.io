@@ -1,0 +1,8 @@
+{%- comment -%}
+Lazy-loaded YouTube player.
+
+Parameters:
+  id - video id, optionally with the share parameters appended
+       (e.g. "KeWBZR6UIGo?si=crtKfa5ySl-90AZT")
+{%- endcomment -%}
+<iframe class="youtube-embed" src="https://www.youtube.com/embed/{{ include.id }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
