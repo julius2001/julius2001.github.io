@@ -47,6 +47,9 @@ concerts with Nordic Opera Choir at Reykjavik Opera Days
 **{% t dates.archive %}**
 </summary>
 
+<div class="details-content" markdown="block">
+<div class="details-content-inner" markdown="block">
+
 **21 December 2025, 6 PM – Domschule, Schleswig, Germany**\\
 Solo Recital
 
@@ -134,4 +137,7 @@ Concert as part of the ERASMUS funded BAIL project
 
 **22-28 January 2024 – Lillesand/Kristiansand, Norway**\\
 Concert Tour with NMH pianists
+
+</div>
+</div>
 </details>

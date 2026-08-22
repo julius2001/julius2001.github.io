@@ -14,6 +14,9 @@ order: 5
 ### {% t repertoire.piano %}
 </summary>
 
+<div class="details-content" markdown="block">
+<div class="details-content-inner" markdown="block">
+
 #### Arutiunian
 - Suite for Clarinet, Violin and Piano
 
@@ -111,6 +114,9 @@ order: 5
 
 #### Tchaikovsky
 - Dumka op. 59
+
+</div>
+</div>
 </details>
 
 </div>
@@ -119,6 +125,9 @@ order: 5
 <summary markdown="block">
 ### {% t repertoire.vocal %}
 </summary>
+
+<div class="details-content" markdown="block">
+<div class="details-content-inner" markdown="block">
 
 #### Bach
 - St Matthew Passion, BWV 244:
@@ -202,6 +211,9 @@ order: 5
 
 #### Hugo Wolf
 - Michelangelo-Lieder
+
+</div>
+</div>
 </details>
 </div>
 </div>
