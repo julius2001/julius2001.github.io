@@ -51,26 +51,8 @@
 
 			// iOS Safari quirk: a :hover style on a link makes the first tap
 			// fire hover instead of click, so nav links need two taps to
-			// activate. On touch devices, navigate on the first touchend.
-			if ('ontouchstart' in window) {
-				$sidebar_a.on('touchend', function(event) {
-					var $this = $(this);
-					if (!$this.data('tapped')) {
-						event.preventDefault();
-						$this.data('tapped', true);
-						window.setTimeout(function() { $this.removeData('tapped'); }, 600);
-						var href = $this.attr('href');
-						if (href && href.charAt(0) === '#') {
-							var target = $(href);
-							if (target.length > 0)
-								$('body,html').stop().animate({ scrollTop: target.offset().top }, 600);
-						} else {
-							window.location.href = href;
-						}
-					}
-				});
-			}
-
+			// activate. The sidebar link :hover is scoped to (hover:hover), and
+			// each anchor below also gets a native click handler for reliability.
 			$sidebar_a
 				.addClass('scrolly')
 				.on('click', function() {
@@ -135,20 +117,22 @@
 
 		}
 
-	// Scrolly.
-		$('.scrolly').scrolly({
-			speed: 1000,
-			offset: function() {
-
-				// If <=large, >small, and sidebar is present, use its height as the offset.
-					if (breakpoints.active('<=large')
-					&&	!breakpoints.active('<=small')
-					&&	$sidebar.length > 0)
-						return $sidebar.height();
-
-				return 0;
-
-			}
+	// Scrolly (native): bind a direct click handler instead of the
+	// jQuery scrolly plugin. Safari on iPad sometimes fails to dispatch
+	// delegated plugin-bound clicks on touch, leaving the nav unresponsive.
+	// A native listener with a fragment fallback makes it reliable.
+		$sidebar_a.each(function() {
+			this.addEventListener('click', function(event) {
+				event.preventDefault();
+				var target = document.querySelector(this.getAttribute('href'));
+				if (target) {
+					var offset = ($sidebar && $sidebar.length) ? $sidebar.height() : 0;
+					var top = target.getBoundingClientRect().top + window.scrollY - offset;
+					window.scrollTo({ top: top, behavior: 'smooth' });
+				} else {
+					window.location.hash = this.getAttribute('href');
+				}
+			});
 		});
 
 	// Spotlights.
