@@ -36,7 +36,7 @@ module Jekyll
               end
               FileUtils.mv(temporary_webp.path, webp_source_filepath)
             rescue StandardError => e
-              raise "Failed to generate WebP from #{source_filepath} to #{webp_source_filepath} and #{webp_dest_filepath}: #{e.class}: #{e.message}"
+              raise "Failed to generate WebP from #{source_filepath} to #{webp_source_filepath}: #{e.class}: #{e.message}"
             ensure
               webp.destroy! if webp
               temporary_webp.unlink if temporary_webp
