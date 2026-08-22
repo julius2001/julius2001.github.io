@@ -10,17 +10,11 @@
 		max-height: 780px;
 
 		// Fade-up on scroll, consistent with the other sections.
-		opacity: 1;
-		@include vendor('transform', 'translateY(0)');
-		@include vendor('transition', (
-			'opacity #{_duration(activation)} ease',
-			'transform #{_duration(activation)} ease'
-		));
+		@include fade-in(1em);
 
 		&.inactive,
 		body.is-preload & {
-			opacity: 0;
-			@include vendor('transform', 'translateY(1em)');
+			@include fade-out(1em);
 		}
 
 		@include breakpoint('<=medium') {

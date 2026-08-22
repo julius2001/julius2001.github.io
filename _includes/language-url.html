@@ -1,0 +1,8 @@
+{%- comment -%}
+Root-relative URL of the current page in a given language. English is served
+from the site root, the other languages from a /<lang> prefix.
+
+Parameters:
+  lang - language code
+{%- endcomment -%}
+{%- if include.lang == 'en' -%}{{ page.url }}{%- else -%}/{{ include.lang }}{{ page.url }}{%- endif -%}

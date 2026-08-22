@@ -33,28 +33,14 @@
 			background-color: _palette(bg-alt);
 		}
 
-		&.style1 {
-			background-color: _palette(surface1);
-		}
+		@each $i in (1, 2, 3) {
+			&.style#{$i} {
+				background-color: _palette('surface#{$i}');
+			}
 
-		&.style1-alt {
-			background-color: _palette(surface1-alt);
-		}
-
-		&.style2 {
-			background-color: _palette(surface2);
-		}
-
-		&.style2-alt {
-			background-color: _palette(surface2-alt);
-		}
-
-		&.style3 {
-			background-color: _palette(surface3);
-		}
-
-		&.style3-alt {
-			background-color: _palette(surface3-alt);
+			&.style#{$i}-alt {
+				background-color: _palette('surface#{$i}-alt');
+			}
 		}
 
 		&.fullscreen {
@@ -91,56 +77,17 @@
 			}*/
 		}
 
-		&.fade-up {
-			> .inner {
-				@include vendor('transform', 'translateY(0)');
-				@include vendor('transition', (
-					'opacity #{_duration(activation)} ease',
-					'transform #{_duration(activation)} ease'
-				));
-				opacity: 1.0;
-			}
-
-			&.inactive,
-			body.is-preload & {
+		@each $name, $offset in ('fade-up': 1em, 'fade-down': -1em, 'fade': false) {
+			&.#{$name} {
 				> .inner {
-					opacity: 0;
-					@include vendor('transform', 'translateY(1em)');
+					@include fade-in($offset);
 				}
-			}
-		}
 
-		&.fade-down {
-			> .inner {
-				@include vendor('transform', 'translateY(0)');
-				@include vendor('transition', (
-					'opacity #{_duration(activation)} ease',
-					'transform #{_duration(activation)} ease'
-				));
-				opacity: 1.0;
-			}
-
-			&.inactive,
-			body.is-preload & {
-				> .inner {
-					opacity: 0;
-					@include vendor('transform', 'translateY(-1em)');
-				}
-			}
-		}
-
-		&.fade {
-			> .inner {
-				@include vendor('transition', (
-					'opacity #{_duration(activation)} ease'
-				));
-				opacity: 1.0;
-			}
-
-			&.inactive,
-			body.is-preload & {
-				> .inner {
-					opacity: 0;
+				&.inactive,
+				body.is-preload & {
+					> .inner {
+						@include fade-out($offset);
+					}
 				}
 			}
 		}

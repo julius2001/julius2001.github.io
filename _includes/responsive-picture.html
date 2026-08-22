@@ -1,0 +1,31 @@
+{%- comment -%}
+Renders a <picture> for a jekyll-responsive-image variant set, serving WebP
+(via the webp_path added by _plugins/responsive_image_webp.rb) with the
+original JPEG/PNG as fallback.
+
+Parameters:
+  resized       - the variant list handed to the template by the plugin
+  alt           - img alt text
+  sizes         - sizes attribute for both sources
+  picture_class - optional class for the <picture> element
+
+The WebP <source> is omitted entirely when no variant has a webp_path (e.g.
+when WebP generation was skipped), so the JPEG/PNG fallback is used.
+{%- endcomment -%}
+{%- assign largest = include.resized | sort: 'width' | last -%}
+{%- capture srcset -%}
+{%- for i in include.resized -%}
+/{{ i.path }} {{ i.width }}w{% unless forloop.last %},{% endunless -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- capture webp_srcset -%}
+{%- assign webp_variant_count = 0 -%}
+{%- for i in include.resized -%}
+    {%- if i.webp_path -%}
+        {%- assign webp_variant_count = webp_variant_count | plus: 1 -%}
+        {%- unless webp_variant_count == 1 -%},{%- endunless -%}
+        /{{ i.webp_path }} {{ i.width }}w
+    {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+<picture{% if include.picture_class %} class="{{ include.picture_class }}"{% endif %}>{% if webp_variant_count > 0 %}<source type="image/webp" srcset="{{ webp_srcset | strip_newlines }}" sizes="{{ include.sizes }}">{% endif %}<img src="/{{ largest.path }}" alt="{{ include.alt }}" srcset="{{ srcset | strip_newlines }}" sizes="{{ include.sizes }}" loading="lazy"></picture>
