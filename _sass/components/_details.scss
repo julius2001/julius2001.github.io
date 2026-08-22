@@ -2,7 +2,6 @@
 
     details {
       padding: 1em;
-      overflow: hidden;
 
       > summary {
         cursor: pointer;
@@ -42,6 +41,46 @@
 
       ul {
         margin-bottom: 1em;
+      }
+
+      // Smooth expand/collapse via a CSS grid track transition — lets the
+      // browser interpolate the size itself instead of animating raw pixel
+      // heights in JS, which keeps it smooth even for long lists.
+      .details-content {
+        display: grid;
+        grid-template-rows: 0fr;
+        opacity: 0;
+        transition:
+          grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+          opacity 0.3s ease;
+      }
+
+      .details-content-inner {
+        overflow: hidden;
+        min-height: 0;
+      }
+
+      // Opening: the native [open] attribute lands immediately, so this
+      // alone is enough to trigger (and animate) the transition.
+      &[open] .details-content {
+        grid-template-rows: 1fr;
+        opacity: 1;
+      }
+
+      // Closing: JS keeps [open] set for one more frame (see main.js) and
+      // adds .is-closing instead, so the collapse still gets to animate
+      // rather than vanishing instantly along with the native toggle.
+      // Same specificity as [open] above, so source order decides — this
+      // must stay below it to win the tie while both classes are present.
+      &.is-closing .details-content {
+        grid-template-rows: 0fr;
+        opacity: 0;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .details-content {
+          transition: none;
+        }
       }
     }
 
