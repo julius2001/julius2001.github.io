@@ -151,7 +151,9 @@
 			height: _size(sidebar-height);
 			left: 0;
 			line-height: _size(sidebar-height);
-			overflow: hidden;
+			overflow-x: auto;
+			overflow-y: hidden;
+			-webkit-overflow-scrolling: touch;
 			padding: 0;
 			text-align: center;
 			top: 0;
@@ -162,11 +164,15 @@
 				@include vendor('align-items', 'stretch');
 				height: inherit;
 				line-height: inherit;
+				width: -moz-fit-content;
+				width: fit-content;
+				min-width: 100%;
 			}
 
 			nav {
 				height: inherit;
 				line-height: inherit;
+				flex-shrink: 0;
 
 				> ul {
 					@include vendor('display', 'flex');
@@ -176,6 +182,7 @@
 
 					> li {
 						display: block;
+						flex-shrink: 0;
 						height: inherit;
 						line-height: inherit;
 						margin: 0 0 0 2em;
@@ -187,6 +194,7 @@
 					height: inherit;
 					line-height: inherit;
 					padding: 0;
+					white-space: nowrap;
 
 					&:after {
 						background-image: none;
@@ -197,6 +205,7 @@
 
 			nav.language-chooser {
 				margin-left: 4em;
+				flex-shrink: 0;
 
 				> ul {
 					> li {
