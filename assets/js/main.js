@@ -209,86 +209,46 @@
 			});
 
 	// Smooth expand/collapse for <details> (repertoire, dates).
-		var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
+	//
+	// The height animation itself lives in CSS (a grid-template-rows
+	// transition on .details-content), which the browser can interpolate
+	// smoothly on its own — opening "just works" as soon as the native
+	// [open] attribute lands. Closing is the one thing CSS can't do alone:
+	// <details> normally hides its content instantly, so this keeps [open]
+	// set for one extra frame while the CSS transition plays, then
+	// actually closes it once that transition has finished.
 		document.querySelectorAll('details').forEach(function(details) {
 
-			var summary = details.querySelector('summary');
+			var summary = details.querySelector('summary'),
+				content = details.querySelector('.details-content');
 
-			if (!summary)
+			if (!summary || !content)
 				return;
 
 			summary.addEventListener('click', function(event) {
 
-				// Instant toggle if the user prefers reduced motion.
-					if (reduceMotion)
+				// Only closing needs special handling.
+					if (!details.open)
 						return;
 
 				event.preventDefault();
 
-				if (details.classList.contains('is-animating'))
+				if (details.classList.contains('is-closing'))
 					return;
 
-				if (!details.open)
-					openDetails(details, summary);
-				else
-					closeDetails(details, summary);
+				details.classList.add('is-closing');
+
+				content.addEventListener('transitionend', function handler(e) {
+					if (e.propertyName !== 'grid-template-rows')
+						return;
+
+					content.removeEventListener('transitionend', handler);
+					details.classList.remove('is-closing');
+					details.open = false;
+				});
 
 			});
 
 		});
-
-		function openDetails(details, summary) {
-
-			details.open = true;
-			details.classList.add('is-animating');
-
-			var endHeight = details.scrollHeight;
-
-			details.style.height = summary.getBoundingClientRect().height + 'px';
-
-			requestAnimationFrame(function() {
-				requestAnimationFrame(function() {
-					details.style.transition = 'height 0.35s ease';
-					details.style.height = endHeight + 'px';
-				});
-			});
-
-			details.addEventListener('transitionend', function handler(event) {
-				if (event.propertyName !== 'height')
-					return;
-
-				details.style.height = '';
-				details.style.transition = '';
-				details.classList.remove('is-animating');
-				details.removeEventListener('transitionend', handler);
-			});
-
-		}
-
-		function closeDetails(details, summary) {
-
-			details.classList.add('is-animating');
-			details.style.height = details.scrollHeight + 'px';
-
-			requestAnimationFrame(function() {
-				requestAnimationFrame(function() {
-					details.style.transition = 'height 0.3s ease';
-					details.style.height = summary.getBoundingClientRect().height + 'px';
-				});
-			});
-
-			details.addEventListener('transitionend', function handler(event) {
-				if (event.propertyName !== 'height')
-					return;
-
-				details.open = false;
-				details.style.height = '';
-				details.style.transition = '';
-				details.classList.remove('is-animating');
-				details.removeEventListener('transitionend', handler);
-			});
-
-		}
 
 })(jQuery);
