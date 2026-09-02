@@ -1,6 +1,6 @@
 ## Om meg
 {% responsive_image path: assets/img/welcome_opera.jpg %}
-Pianisten og sanger, født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
+Pianisten og sangeren (bass), født i 2001 i Schleswig, Nord-Tyskland, begynte sin musikalske utdannelse på ulike måter i
 barndommen.
 Først lærte han seg grunnleggende pianospill på egen hånd i tillegg til kirkekor, fiolin- og bratsjspill,
 før han i alderen av 10 år begynte sin klaverutdannelse hos den irsk-tyske pianisten **Kevin McKenna**.
