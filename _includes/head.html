@@ -1,8 +1,9 @@
 <title>{% t site_title %}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; frame-src https://www.youtube-nocookie.com https://open.spotify.com; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/assets/css/main.css">
 <noscript><link rel="stylesheet" href="/assets/css/noscript.css"></noscript>
@@ -13,7 +14,7 @@
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img//favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5C7A94">
 <meta name="msapplication-TileColor" content="#5C7A94">
@@ -26,56 +27,38 @@
 <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url | append: site.baseurl_root | append: '/' | append: lang | append: page.url }}">
 {%- endif -%}
 {% endfor %}
-<link rel="alternate" hreflang="x-default" href="{{ site.url | append: site.baseurl_root | append: page.url }}">
 
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
-{%- case site.lang -%}
-{%- when 'de' -%}{%- assign og_locale = 'de_DE' -%}
-{%- when 'no' -%}{%- assign og_locale = 'nb_NO' -%}
-{%- else -%}{%- assign og_locale = 'en_US' -%}
-{%- endcase -%}
 <meta property="og:site_name" content="{% t site_title %}">
-<meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 <meta property="og:title" content="{% t site_title %}">
 <meta property="og:description" content="{% t description %}">
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1600">
-<meta property="og:image:alt" content="{% t site_title %}">
-<meta property="og:locale" content="{{ og_locale }}">
+<meta property="og:locale" content="{{ site.lang }}">
 <meta property="og:updated_time" content="{{ 'now' | date_to_xmlschema }}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{% t site_title %}">
-<meta name="twitter:description" content="{% t description %}">
-<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/og-image.jpg">
 {% if page.layout == 'default' %}
 <script type="application/ld+json">
     {
         "@context" : "https://schema.org",
-        "@type" : "WebSite",
-        "url" : "{{ site.url }}{{ site.baseurl }}/",
-        "name" : "{% t site_title %}",
-        "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}",
-        "inLanguage": "{{ site.lang }}"
-    }
-</script>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "{% t site_title %}",
-        "url": "{{ site.url }}{{ site.baseurl }}/",
-        "image": "{{ site.url }}{{ site.baseurl }}/assets/img/og-image.jpg",
-        "email": "mailto:{{ site.email }}",
-        "jobTitle": "{% t person.jobtitle %}",
-        "sameAs": [
-            "https://www.facebook.com/{{ site.facebook_id }}",
-            "https://www.instagram.com/{{ site.instagram_username }}",
-            "https://open.spotify.com/artist/{{ site.spotify_id }}",
-            "https://www.youtube.com/user/{{ site.youtube_username }}",
-            "https://www.linkedin.com/in/{{ site.linkedin_id }}"
+        "@graph": [
+            {
+                "@type" : "WebSite",
+                "url" : "{{ site.url }}{{ site.baseurl }}/",
+                "name" : "{% t site_title %}",
+                "alternateName": "{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}",
+                "inLanguage": "{{ site.lang }}"
+            },
+            {
+                "@type" : "Person",
+                "name" : "Julius von Forstner",
+                "url" : "{{ site.url }}{{ site.baseurl }}/",
+                "jobTitle" : ["Pianist", "Singer"],
+                "description" : "{% t description %}",
+                "homeLocation" : {
+                    "@type" : "Place",
+                    "name" : "Oslo, Norway"
+                }
+            }
         ]
     }
 </script>
