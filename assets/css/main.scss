@@ -73,9 +73,6 @@
 /* 1. Typografie & Lesbarkeit */
 body {
   font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.65;
-  color: #2c2c2c;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -95,36 +92,6 @@ a:focus-visible, button:focus-visible {
   outline-offset: 3px;
 }
 
-/* 2. Großzügigere Sektionsabstände */
-section, .section, main > div {
-  padding-top: clamp(3.5rem, 6vw, 6rem);
-  padding-bottom: clamp(3.5rem, 6vw, 6rem);
-}
-
-/* 3. Hero- & Banner-Bilder automatisch lesbarer machen (Overlay) */
-.banner, .hero, header.banner, section:first-of-type {
-  position: relative;
-  
-  /* Legt ein dezentes dunkles Overlay über vorhandene Banner-Bilder */
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.45);
-    z-index: 1;
-  }
-
-  /* Stellt sicher, dass Text über dem Overlay liegt */
-  > * {
-    position: relative;
-    z-index: 2;
-  }
-
-  h1, h2, p {
-    color: #ffffff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  }
-}
 
 /* 4. Buttons aufwerten */
 .button, .btn, a.button, input[type="submit"] {
