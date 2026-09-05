@@ -64,3 +64,93 @@
 	@import '../../_sass/layout/footer';
 	@import '../../_sass/layout/sidebar';
 	@import '../../_sass/layout/intro';
+
+
+/* ==========================================================================
+   DESIGN-OPTIMIERUNGEN (MINIMALER EINGRIFF)
+   ========================================================================== */
+
+/* 1. Typografie & Lesbarkeit */
+body {
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #2c2c2c;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+
+/* Barrierefreiheit: Tastatur-Fokus */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid #c5a059 !important;
+  outline-offset: 3px;
+}
+
+/* 2. Großzügigere Sektionsabstände */
+section, .section, main > div {
+  padding-top: clamp(3.5rem, 6vw, 6rem);
+  padding-bottom: clamp(3.5rem, 6vw, 6rem);
+}
+
+/* 3. Hero- & Banner-Bilder automatisch lesbarer machen (Overlay) */
+.banner, .hero, header.banner, section:first-of-type {
+  position: relative;
+  
+  /* Legt ein dezentes dunkles Overlay über vorhandene Banner-Bilder */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+  }
+
+  /* Stellt sicher, dass Text über dem Overlay liegt */
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  h1, h2, p {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* 4. Buttons aufwerten */
+.button, .btn, a.button, input[type="submit"] {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* 5. Karten / Boxen (News, Medien, Repertoire) */
+.box, .card, .item {
+  border-radius: 6px;
+  border: 1px solid #eef0f2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+}
